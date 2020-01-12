@@ -25,8 +25,8 @@
 	"addAddress.cancelButton": "취소",
 
 	// Address info screen
-	"addressInfo.title": "Address info",
-	"addAddress.subtitle": "Get all related to the address info",
+	"addressInfo.title": "주소 정보",
+	"addAddress.subtitle": "주소 정보와 관련된 모든것",
 
 	// Create wallet screen
 	"createWallet.title": "지갑 생성하기",
