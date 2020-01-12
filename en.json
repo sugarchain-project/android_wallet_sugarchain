@@ -1,0 +1,193 @@
+{
+	// Address book screen
+	"addressBook.title": "Address book",
+	"addressBook.sendButton": "Send",
+	"addressBook.removeButton": "Remove",
+	"addressBook.nameInput": "Name",
+	"addressBook.addressInput": "Address",
+	"addressBook.addAddressButton": "Add address",
+	"addressBook.empty": "Address book is empty.",
+
+	// Adding an address screen
+	"addAddress.title": "Adding an address",
+	"addAddress.subtitle": "Add the address to the address book",
+	"addAddress.existNameAlert": "An address with that name already exists. Try Again!",
+	"addAddress.existAddressAlert": "An address already exists in address book. Try Again!",
+	"addAddress.successAlert": "Success!",
+	"addAddress.incorrectNameAlert": "Incorrect name!",
+	"addAddress.incorrectAddressAlert": "Incorrect address!",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "At least 3 characters",
+	"addAddress.addressTooltipText": "Must be an MicroBitcoin address",
+	"addAddress.nameInput": "Name",
+	"addAddress.addressInput": "Address",
+	"addAddress.addButton": "Add",
+	"addAddress.cancelButton": "Cancel",
+
+	// Address info screen
+	"addressInfo.title": "Address info",
+	"addAddress.subtitle": "Get all related to the address info",
+
+	// Create wallet screen
+	"createWallet.title": "Create wallet",
+	"createWallet.seedSubtitle": "Your seed phrase",
+	"createWallet.copyButton": "Copy",
+	"createWallet.tooltipText": "Write these words down in the following order or copy to store safety! Don't share your recovery phrase with anyone.",
+	"createWallet.nextButton": "Next",
+	"createWallet.copyAlert": "Seed phrase has been successfully copied!",
+	"createWallet.confirmAlertButton": "OK",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "Welcome to the",
+	"firstWallet.secondLineTitle": "MicroBitcoin wallet",
+	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
+	"firstWallet.createButton": "Create new wallet",
+	"firstWallet.importButton": "Import wallet",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "Generating wallet",
+	"generateWallet.tooltipText": "It may take some time, please be patient.",
+
+	// Import wallet screen
+	"importWallet.title": "Import wallet",
+	"importWallet.seedSubtitle": "Enter your seed phrase",
+	"importWallet.seedInput": "Start typing recovery phrase",
+	"importWallet.tooltipText": "12 words separated by single spaces.",
+	"importWallet.nextButton": "Next",
+	"importWallet.invalidSeedAlert": "Invalid seed phrase. Try again!",
+	"importWallet.walletTitle": "Title",
+	"importWallet.walletTitleExampleInput": "Input wallet title",
+	"importWallet.invalidTitle": "Invalid title. Too short value. Try again!",
+	"importWallet.confirmAlertButton": "OK",
+
+	// Password screen
+	"password.title": "Password",
+	"password.enterPINTitle": "Enter password",
+	"password.enterNewPINTitle": "Enter new password",
+	"password.repeatNewPINTitle": "Repeat new password",
+	"password.setPassword": "Set password",
+	"password.confirmPassword": "Confirm password",
+	"password.enterPassword": "Enter password",
+	"password.cancelButton": "Cancel",
+	"password.incorrectPINAlert": "Your password is incorrect. Try again!",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "to open your wallet",
+	"password.android.biomentricTitle": "Authentication Required",
+	"password.android.biomentricTooltipText": "Touch sensor",
+	"password.android.biomentricError": "Failed",
+	"password.doNotMatchAlert": "Your passwords do not match. Try again!",
+	"password.useBioAlert": "Do you want to use biometric authentication?",
+	"password.doNotUseBioButton": "No",
+	"password.useBioButton": "Yes",
+
+	// Receive screen
+	"receive.title": "Receive",
+	"receive.copyButton": "Copy",
+	"receive.newButton": "New",
+	"receive.importButton": "Import",
+	"receive.copyAlert": "Address has been successfully copied!",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "Importing a WIF key",
+	"importKey.subtitle": "Add the address and the private key to the wallet addresses",
+	"importKey.keyInput": "WIF key",
+	"importKey.keyTooltipText": "Must be valid key",
+	"importKey.addButton": "Add",
+	"importKey.cancelButton": "Cancel",
+	"importKey.successAlert": "Success!",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "Incorrect WIF key. Try Again!",
+
+	// Send screen
+	"send.title": "Send",
+	"send.transactionSubtitle": "Transaction details",
+	"send.fromText": "From",
+	"send.toText": "To",
+	"send.feeText": "Fee",
+	"send.amountText": "Amount",
+	"send.addressExampleInput": "BVtLq7dMccCArZbNcrRDcBbWWRq8H7qCpm",
+	"send.timelockText": "Timelock",
+	"send.timelockInput": "Tap to select date (optional)",
+	"send.confirmButton": "Confirm",
+	"send.successAlert": "Success!",
+	"send.errorAlert": "Error sending transaction!",
+	"send.confirmAlertButton": "OK",
+	"send.dismissScanModalButton": "Close QR-scanner",
+	"send.qrcodeButton": "QR-code",
+	"send.addressBookButton": "Address book",
+	"send.clearButton": "Clear",
+
+	// Wallet list screen
+	"walletList.title": "Wallet list",
+	"walletList.empty": "Wallet list is empty",
+	"walletList.addButton": "Add",
+	"walletList.cancelButton": "Cancel",
+
+	// Address list screen
+	"addressList.title": "Address list",
+	"addressList.cancelButton": "Cancel",
+
+	// Transaction details screen
+	"transactionDetails.title": "Details of transaction",
+	"transactionDetails.sendText": "Sent",
+	"transactionDetails.receivedText": "Received",
+	"transactionDetails.dateTooltipText": "Date",
+	"transactionDetails.confirmationsTooltipText": "Confirmations",
+	"transactionDetails.txidTooltipText": "Txid",
+	"transactionDetails.fromTooltipText": "From",
+	"transactionDetails.toTooltipText": "To",
+	"transactionDetails.explorerButton": "Blockchain explorer",
+	"transactionDetails.closeButton": "Close",
+	"transactionDetails.lockupTooltipText": "Lockup",
+	"transactionDetails.amountText": "Amount",
+	"transactionDetails.feeText": "Fee",
+	"transactionDetails.alertTitle": "Send",
+	"transactionDetails.existNameAlert": "Address book is empty",
+	"transactionDetails.confirmAlertButton": "OK",
+
+	// Confirmation screen
+	"confirmation.title": "Payment confirmation",
+	"confirmation.subtitle": "Confirm coin withdrawal from wallet",
+	"confirmation.balanceTooltipText": "Balance",
+	"confirmation.amountTooltipText": "Amount",
+	"confirmation.addressTooltipText": "Address",
+	"confirmation.feeTooltipText": "Fee",
+	"confirmation.timelockTooltipText": "Timelock",
+	"confirmation.confirmButton": "Confirm",
+	"confirmation.cancelButton": "Cancel",
+
+	// Wallet screen
+	"wallet.title": "Wallet",
+	"wallet.coinTitle": "MicroBitcoin",
+	"wallet.empty": "Wallet history is empty. Get your first coins in",
+	"wallet.emptyReceiveTab": "Receive tab",
+	"wallet.balanceTitle": "Balance",
+	"wallet.lockedTitle": "Locked",
+	"wallet.lockedBalanceTitle": "Locked balance",
+	"wallet.networkStatusTitle": "Network status",
+	"wallet.settingsButton": "Settings",
+	"wallet.mempool": "unconfirmed transactions",
+
+	// Settings screen
+	"settings.title": "Settings",
+	"settings.closeButton": "Close",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "Clear transaction cache",
+	"settings.clearTxCacheTooltipText": "Remove local transaction list and reload it",
+	"settings.clearAddressBook": "Clear address book",
+	"settings.clearAddressBookTooltipText": "Remove all added addresses from address book",
+	"settings.copyRecoveryPhrase": "Copy seed phrase",
+	"settings.changePassword": "Change password",
+	"settings.changeLanguage": "Change language",
+	"settings.importWIF": "Import WIF key",
+	"settings.walletList": "To wallet list",
+	"settings.removeWallet": "Remove wallet",
+	"settings.clearTxAlert": "Remove all added addresses from the address book!",
+	"settings.clearAddressBookAlert": "Address book has been successfully cleared!",
+	"settings.copySeedAlert": "Seed phrase has been successfully copied!",
+
+	// Language list screen
+	"languageList.title": "Language",
+	"languageList.doneButton": "Done",
+}
