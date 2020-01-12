@@ -39,7 +39,7 @@
 
 	// First wallet screen
 	"firstWallet.firstLineTitle": "Welcome to the",
-	"firstWallet.secondLineTitle": "MicroBitcoin wallet",
+	"firstWallet.secondLineTitle": "Sugarchain wallet",
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
 	"firstWallet.importButton": "Import wallet",
