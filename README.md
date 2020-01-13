@@ -5,6 +5,27 @@ Translation for Android Wallet
 
 If you want to help the project and add a new language into the wallet, just create a new file in **.json** format with correct language code.
 
+## Example
+
+You want to add Ukrainian language into wallet, so you check language code chapter and look for **Ukrainian language code**. 
+Here it is: 
+```json 
+  "uk": {
+    "name": "Ukrainian",
+    "nativeName": "українська"
+  },
+```
+
+So we create **.json** file with the title, that is a language key, in our case, it's **"uk"**:
+
+```json 
+uk.json
+```
+
+Finally, copy and paste **en.json** into the created file and translate it, after that push new translation into the repo.
+
+**Have fun:)**
+
 ## Language codes
 ```json
 {
@@ -738,23 +759,3 @@ If you want to help the project and add a new language into the wallet, just cre
     }
 }
 ```
-## Example
-
-You want to add Ukrainian language into wallet, so you check language code chapter and look for **Ukrainian language code**. 
-Here it is: 
-```json 
-  "uk": {
-    "name": "Ukrainian",
-    "nativeName": "українська"
-  },
-```
-
-So we create **.json** file with the title, that is a language key, in our case, it's **"uk"**:
-
-```json 
-uk.json
-```
-
-Finally, copy and paste **en.json** into the created file and translate it, after that push new translation into the repo.
-
-**Have fun:)**
