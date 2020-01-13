@@ -38,8 +38,8 @@
 	"createWallet.confirmAlertButton": "OK",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Selamat Datang di",
-	"firstWallet.secondLineTitle": "Dompet Sugarchain",
+	"firstWallet.firstLineTitle": "Dompet Sugarchain",
+	"firstWallet.moto":"satu-CPU-satu-suara, blockchain PoW tercepat di dunia",
 	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
 	"firstWallet.createButton": "Membuat Dompet Baru",
 	"firstWallet.importButton": "Impor dompet",
@@ -123,7 +123,8 @@
 	"walletList.empty": "Daftar Dompet Kosong",
 	"walletList.addButton": "Tambahkan",
 	"walletList.cancelButton": "Batalkan",
-
+	"walletList.notMigrated": "Dompet belum dimigrasi",
+	
 	// Address list screen
 	"addressList.title": "Daftar Alamat",
 	"addressList.cancelButton": "Batalkan",
@@ -145,7 +146,8 @@
 	"transactionDetails.alertTitle": "Kirim",
 	"transactionDetails.existNameAlert": "Buku Alamat Kosong",
 	"transactionDetails.confirmAlertButton": "OK",
-
+	"transactionDetails.myWalletText": "Dompetku",
+	
 	// Confirmation screen
 	"confirmation.title": "Konfirmasi ",
 	"confirmation.subtitle": "Konfirmasikan penarikan koin dari dompet",
@@ -178,15 +180,19 @@
 	"settings.clearAddressBook": "Bersihkan buku alamat",
 	"settings.clearAddressBookTooltipText": "bersihkan semua alamat dari buku alamat",
 	"settings.copyRecoveryPhrase": "Salin kata kunci",
+	"settings.copyRecoveryPhraseTooltipText": "Salin 12 kata benih yang Anda lihat, saat membuat dompet",
 	"settings.changePassword": "Rubah kata sandi",
 	"settings.changeLanguage": "Rubah Bahasa",
 	"settings.importWIF": "Impor kunci WIF",
 	"settings.walletList": "Untuk Urutan daftar dompet",
 	"settings.removeWallet": "Hapus dompet",
+	"settings.removeWalletTooltipText": "Hapus dompet sepenuhnya dari aplikasi",
 	"settings.clearTxAlert": "Hapus semua alamat yg ditambahkan dari buku alamat!",
 	"settings.clearAddressBookAlert": "Buku alamat berhasil Dibersihkan!",
 	"settings.copySeedAlert": "Kata kunci berhasil disalin!",
-
+	"settings.removeWalletAlert": "Salin dan simpan salin kata kunci. Jika tidak, Anda akan kehilangan dompet selamanya. Apakah Anda ingin menghapus dompet?",
+	"settings.doNotRemoveWalletButton": "Tidak",
+	"settings.removeWalletButton": "Iya",
 	// Language list screen
 	"languageList.title": "Bahasa",
 	"languageList.doneButton": "Selesai",
