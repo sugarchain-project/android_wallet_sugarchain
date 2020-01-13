@@ -1,0 +1,193 @@
+{
+	// Address book screen
+	"addressBook.title": "Libreta de direcciones",
+	"addressBook.sendButton": "Enviar",
+	"addressBook.removeButton": "Quitar",
+	"addressBook.nameInput": "Nombre",
+	"addressBook.addressInput": "Dirección",
+	"addressBook.addAddressButton": "Agregar dirección",
+	"addressBook.empty": "La libreta de direcciones está vacía.",
+
+	// Adding an address screen
+	"addAddress.title": "Añadiendo una dirección",
+	"addAddress.subtitle": "Añadir la dirección a la libreta de direcciones",
+	"addAddress.existNameAlert": "Ya existe una dirección con ese nombre. Inténtelo de nuevo!",
+	"addAddress.existAddressAlert": "Ya existe una dirección en la libreta de direcciones. Inténtelo de nuevo!",
+	"addAddress.successAlert": "Éxito!",
+	"addAddress.incorrectNameAlert": "Nombre incorrecto!",
+	"addAddress.incorrectAddressAlert": "Dirección incorrecta!",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "Al menos 3 caracteres",
+	"addAddress.addressTooltipText": "Debe ser una dirección de Sugarchain",
+	"addAddress.nameInput": "Nombre",
+	"addAddress.addressInput": "Dirección",
+	"addAddress.addButton": "Añadir",
+	"addAddress.cancelButton": "Cancelar",
+
+	// Address info screen
+	"addressInfo.title": "Información de la dirección",
+	"addAddress.subtitle": "Obtener todo lo relacionado con la información de la dirección",
+
+	// Create wallet screen
+	"createWallet.title": "Crear una cartera",
+	"createWallet.seedSubtitle": "Su frase inicial",
+	"createWallet.copyButton": "Copia",
+	"createWallet.tooltipText": "Escriba estas palabras en el siguiente orden o cópielas para la seguridad! No comparta su frase de recuperación con nadie.",
+	"createWallet.nextButton": "Siguiente",
+	"createWallet.copyAlert": "La frase inicial ha sido copiada con éxito!",
+	"createWallet.confirmAlertButton": "OK",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "Bienvenido a la",
+	"firstWallet.secondLineTitle": "Cartera de Sugarchain",
+	"firstWallet.tooltipText": "Para empezar a utilizar la aplicación, toque uno de los siguientes botones",
+	"firstWallet.createButton": "Crear una nueva cartera",
+	"firstWallet.importButton": "Importación de cartera",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "Generando cartera",
+	"generateWallet.tooltipText": "Puede tomar algún tiempo, por favor, tenga paciencia.",
+
+	// Import wallet screen
+	"importWallet.title": "Importación de la cartera",
+	"importWallet.seedSubtitle": "Ingrese su frase inicial",
+	"importWallet.seedInput": "Empiece a escribir la frase de recuperación",
+	"importWallet.tooltipText": "12 palabras separadas por un espacio.",
+	"importWallet.nextButton": "Siguiente",
+	"importWallet.invalidSeedAlert": "frase inicial inválida. Inténtalo de nuevo!",
+	"importWallet.walletTitle": "Título",
+	"importWallet.walletTitleExampleInput": "ingresar el nombre de la cartera ",
+	"importWallet.invalidTitle": "Nombre inválido. Valor demasiado corto.  Inténtelo de nuevo!",
+	"importWallet.confirmAlertButton": "OK",
+
+	// Password screen
+	"password.title": "Contraseña",
+	"password.enterPINTitle": "Introduzca la contraseña",
+	"password.enterNewPINTitle": "Introduzca una nueva contraseña",
+	"password.repeatNewPINTitle": "Repita la nueva contraseña",
+	"password.setPassword": "Establecer contraseña",
+	"password.confirmPassword": "Confirmar la contraseña",
+	"password.enterPassword": "Introduzca la contraseña",
+	"password.cancelButton": "Cancelar",
+	"password.incorrectPINAlert": "Su contraseña es incorrecta. Inténtelo de nuevo!",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "para abrir su cartera",
+	"password.android.biomentricTitle": "Autenticación requerida",
+	"password.android.biomentricTooltipText": "Sensor táctil",
+	"password.android.biomentricError": "Fallo",
+	"password.doNotMatchAlert": "Sus contraseñas no coinciden. ¡Inténtalo de nuevo!",
+	"password.useBioAlert": "Desea utilizar la autenticación biométrica?",
+	"password.doNotUseBioButton": "No",
+	"password.useBioButton": "Sí",
+
+	// Receive screen
+	"receive.title": "Recibir",
+	"receive.copyButton": "Copia",
+	"receive.newButton": "Nuevo",
+	"receive.importButton": "Importación",
+	"receive.copyAlert": "La dirección ha sido copiada con éxito!",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "Importación de una clave WIF",
+	"importKey.subtitle": "Añadir la dirección y la clave privada a las direcciones de las carteras",
+	"importKey.keyInput": "Clave WIF",
+	"importKey.keyTooltipText": "Debe ser una clave válida",
+	"importKey.addButton": "Añadir",
+	"importKey.cancelButton": "Cancelar",
+	"importKey.successAlert": "Éxito!",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "Clave WIF incorrecta. Inténtelo de nuevo!",
+
+	// Send screen
+	"send.title": "Enviar",
+	"send.transactionSubtitle": "Detalles de la transacción",
+	"send.fromText": "Desde",
+	"send.toText": "Para",
+	"send.feeText": "Cuota",
+	"send.amountText": "Cantidad",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.timelockText": "Bloqueo horario",
+	"send.timelockInput": "Presione para seleccionar la fecha (opcional)",
+	"send.confirmButton": "Confirme",
+	"send.successAlert": "Éxito!",
+	"send.errorAlert": "Error al enviar la transacción!",
+	"send.confirmAlertButton": "OK",
+	"send.dismissScanModalButton": "Cerrar el escáner QR",
+	"send.qrcodeButton": "escáner QR",
+	"send.addressBookButton": "Libreta de direcciones",
+	"send.clearButton": "Borrar",
+
+	// Wallet list screen
+	"walletList.title": "Lista de la cartera",
+	"walletList.empty": "La lista de carteras está vacía",
+	"walletList.addButton": "Añadir",
+	"walletList.cancelButton": "Cancelar",
+
+	// Address list screen
+	"addressList.title": "Lista de direcciones",
+	"addressList.cancelButton": "Cancelar",
+
+	// Transaction details screen
+	"transactionDetails.title": "Detalles de la transacción",
+	"transactionDetails.sendText": "Enviado",
+	"transactionDetails.receivedText": "Recibido",
+	"transactionDetails.dateTooltipText": "Fecha",
+	"transactionDetails.confirmationsTooltipText": "Confirmaciones",
+	"transactionDetails.txidTooltipText": "TXID",
+	"transactionDetails.fromTooltipText": "Desde",
+	"transactionDetails.toTooltipText": "Para",
+	"transactionDetails.explorerButton": "Explorador Blockchain",
+	"transactionDetails.closeButton": "Cerrar",
+	"transactionDetails.lockupTooltipText": "cerrar con llave",
+	"transactionDetails.amountText": "Cantidad",
+	"transactionDetails.feeText": "Cuota",
+	"transactionDetails.alertTitle": "Enviar",
+	"transactionDetails.existNameAlert": "La libreta de direcciones está vacía",
+	"transactionDetails.confirmAlertButton": "OK",
+
+	// Confirmation screen
+	"confirmation.title": "Confirmación de pago",
+	"confirmation.subtitle": "Confirmar la salida de las monedas de la cartera",
+	"confirmation.balanceTooltipText": "Saldo",
+	"confirmation.amountTooltipText": "Cantidad",
+	"confirmation.addressTooltipText": "Dirección",
+	"confirmation.feeTooltipText": "Cuota",
+	"confirmation.timelockTooltipText": "Bloqueo horario",
+	"confirmation.confirmButton": "confirmar",
+	"confirmation.cancelButton": "Cancelar",
+
+	// Wallet screen
+	"wallet.title": "Cartera",
+	"wallet.coinTitle": "Sugarchain",
+	"wallet.empty": "El historial de la cartera está vacío. Consigue tus primeras monedas",
+	"wallet.emptyReceiveTab": "Recibir tab",
+	"wallet.balanceTitle": "Saldo",
+	"wallet.lockedTitle": "Cerrado",
+	"wallet.lockedBalanceTitle": "Saldo Cerrado",
+	"wallet.networkStatusTitle": "Estado de la red",
+	"wallet.settingsButton": "Configuraciones",
+	"wallet.mempool": "transacciones no confirmadas",
+
+	// Settings screen
+	"settings.title": "Configuraciones",
+	"settings.closeButton": "Cerrar",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "Borrar la caché de transacciones",
+	"settings.clearTxCacheTooltipText": "Eliminar la lista de transacciones local y recargarla",
+	"settings.clearAddressBook": "Borrar libreta de direcciones",
+	"settings.clearAddressBookTooltipText": "Eliminar todas las direcciones añadidas de la libreta de direcciones",
+	"settings.copyRecoveryPhrase": "Copiar frase inicial",
+	"settings.changePassword": "Cambiar la contraseña",
+	"settings.changeLanguage": "Cambiar el idioma",
+	"settings.importWIF": "Importación de la clave WIF",
+	"settings.walletList": "A la lista de la cartera",
+	"settings.removeWallet": "Quitar la cartera",
+	"settings.clearTxAlert": "Elimine todas las direcciones añadidas de la libreta de direcciones!",
+	"settings.clearAddressBookAlert": "La libreta de direcciones ha sido limpiada con éxito!",
+	"settings.copySeedAlert": "La frase inicial ha sido copiada con éxito!",
+
+	// Language list screen
+	"languageList.title": "Idioma",
+	"languageList.doneButton": "Hecho",
+}
