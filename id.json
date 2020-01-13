@@ -193,6 +193,7 @@
 	"settings.removeWalletAlert": "Salin dan simpan salin kata kunci. Jika tidak, Anda akan kehilangan dompet selamanya. Apakah Anda ingin menghapus dompet?",
 	"settings.doNotRemoveWalletButton": "Tidak",
 	"settings.removeWalletButton": "Iya",
+	
 	// Language list screen
 	"languageList.title": "Bahasa",
 	"languageList.doneButton": "Selesai",
