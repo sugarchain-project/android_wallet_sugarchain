@@ -38,8 +38,8 @@
 	"createWallet.confirmAlertButton": "OK",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Welcome to the",
-	"firstWallet.secondLineTitle": "Sugarchain wallet",
+	"firstWallet.firstLineTitle": "Sugarchain wallet",
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
 	"firstWallet.importButton": "Import wallet",
@@ -123,6 +123,7 @@
 	"walletList.empty": "Wallet list is empty",
 	"walletList.addButton": "Add",
 	"walletList.cancelButton": "Cancel",
+	"walletList.notMigrated": "Wallet has not migrated yet",
 
 	// Address list screen
 	"addressList.title": "Address list",
@@ -145,6 +146,7 @@
 	"transactionDetails.alertTitle": "Send",
 	"transactionDetails.existNameAlert": "Address book is empty",
 	"transactionDetails.confirmAlertButton": "OK",
+	"transactionDetails.myWalletText": "My wallet",
 
 	// Confirmation screen
 	"confirmation.title": "Payment confirmation",
@@ -178,14 +180,19 @@
 	"settings.clearAddressBook": "Clear address book",
 	"settings.clearAddressBookTooltipText": "Remove all added addresses from address book",
 	"settings.copyRecoveryPhrase": "Copy seed phrase",
+	"settings.copyRecoveryPhraseTooltipText": "Copy 12 seed words you saw, when create wallet",
 	"settings.changePassword": "Change password",
 	"settings.changeLanguage": "Change language",
 	"settings.importWIF": "Import WIF key",
 	"settings.walletList": "To wallet list",
 	"settings.removeWallet": "Remove wallet",
+	"settings.removeWalletTooltipText": "Fully remove wallet from the app",
 	"settings.clearTxAlert": "Remove all added addresses from the address book!",
 	"settings.clearAddressBookAlert": "Address book has been successfully cleared!",
 	"settings.copySeedAlert": "Seed phrase has been successfully copied!",
+	"settings.removeWalletAlert": "Copy and save seed phrase. If not, you will lose wallet forever. Do you want to remove wallet?",
+	"settings.doNotRemoveWalletButton": "No",
+	"settings.removeWalletButton": "Yes",
 
 	// Language list screen
 	"languageList.title": "Language",
