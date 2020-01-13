@@ -1,0 +1,193 @@
+{
+	// Address book screen
+	"addressBook.title": "Buku Alamat",
+	"addressBook.sendButton": "Kirim",
+	"addressBook.removeButton": "Hapus",
+	"addressBook.nameInput": "Nama",
+	"addressBook.addressInput": "Alamat",
+	"addressBook.addAddressButton": "Tambah Alamat",
+	"addressBook.empty": "Buku Alamat Kosong.",
+
+	// Adding an address screen
+	"addAddress.title": "menambahkan Alamat",
+	"addAddress.subtitle": "Menambahkan Alamat Ke Buku Alamat",
+	"addAddress.existNameAlert": "Nama dimasukan sudah ada di buku alamat. Ulangi Lagi!",
+	"addAddress.existAddressAlert": "Alamat yg dimasukkan sudah ada di buku alamat. Ulangi!",
+	"addAddress.successAlert": "Berhasil!",
+	"addAddress.incorrectNameAlert": "Nama Tidak Benar!",
+	"addAddress.incorrectAddressAlert": "Alamat Tidak Benar!",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "Setidaknya 3K arakter",
+	"addAddress.addressTooltipText": "Harus Alamat Sugar",
+	"addAddress.nameInput": "Nama",
+	"addAddress.addressInput": "Alamat",
+	"addAddress.addButton": "Tambah",
+	"addAddress.cancelButton": "Batalkan",
+
+	// Address info screen
+	"addressInfo.title": "Informasi Alamat",
+	"addAddress.subtitle": "Dapatkan semua yang terkait dengan info alamat",
+
+	// Create wallet screen
+	"createWallet.title": "Membuat Dompet",
+	"createWallet.seedSubtitle": "Kata Kunci Anda",
+	"createWallet.copyButton": "Salin",
+	"createWallet.tooltipText": "Tuliskan kata-kata dalam urutan berikut ini atau salin untuk menyimpan keamanan! Jangan bagikan kata pemulihan Anda dengan siapa pun.",
+	"createWallet.nextButton": "Selanjutnya",
+	"createWallet.copyAlert": "Kata pemulihan berhasil disalin!",
+	"createWallet.confirmAlertButton": "OK",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "Selamat Datang di",
+	"firstWallet.secondLineTitle": "Dompet Sugarchain",
+	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
+	"firstWallet.createButton": "Membuat Dompet Baru",
+	"firstWallet.importButton": "Impor dompet",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "Membuat alamat Dompet",
+	"generateWallet.tooltipText": "Tunggu sebentar, harap bersabar.",
+
+	// Import wallet screen
+	"importWallet.title": "Impor Dompet",
+	"importWallet.seedSubtitle": "Masukkan Kata rahasia Anda",
+	"importWallet.seedInput": "Mulai menulis kata pemulihan anda",
+	"importWallet.tooltipText": "12 kata dengan dipisahkan satu sepasi.",
+	"importWallet.nextButton": "Selanjutnya",
+	"importWallet.invalidSeedAlert": "Salah Kata kunci. Ulangi Lagi!",
+	"importWallet.walletTitle": "Nama",
+	"importWallet.walletTitleExampleInput": "Tuliskan nama untuk dompet",
+	"importWallet.invalidTitle": "Nama salah,terlalu pendek. Ulangi lagi!",
+	"importWallet.confirmAlertButton": "OK",
+
+	// Password screen
+	"password.title": "Kata sandi",
+	"password.enterPINTitle": "Masukan Kata Sandi",
+	"password.enterNewPINTitle": "Masukkan kata sandi baru",
+	"password.repeatNewPINTitle": "Ulangi kata sandi baru",
+	"password.setPassword": "Setel Kata Sandi",
+	"password.confirmPassword": "Konfirmasi Kata Sandi",
+	"password.enterPassword": "Masukan kata Sandi",
+	"password.cancelButton": "Batalkan",
+	"password.incorrectPINAlert": "Kata sandi Anda Salah. Ulangi Lagi!",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "Untuk Membuka Dompet Anda",
+	"password.android.biomentricTitle": "Dibutuhkan Authentikasi",
+	"password.android.biomentricTooltipText": "Sidik Jari",
+	"password.android.biomentricError": "Gagal",
+	"password.doNotMatchAlert": "Kata sandi Anda Tidak Sama, Ulangi Lagi!",
+	"password.useBioAlert": "Apakah anda ingin autentifikasi biometrik ?",
+	"password.doNotUseBioButton": "Tidak",
+	"password.useBioButton": "Ya",
+
+	// Receive screen
+	"receive.title": "Menerima",
+	"receive.copyButton": "Salin",
+	"receive.newButton": "Baru",
+	"receive.importButton": "Impor",
+	"receive.copyAlert": "Alamat berhasil disalin!",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "Impor kunci WIF",
+	"importKey.subtitle": "Tambahkan alamat dan kunci pribadi ke alamat dompet",
+	"importKey.keyInput": "Kunci WIF",
+	"importKey.keyTooltipText": "Harus dengan kunci yang Valid",
+	"importKey.addButton": "Tambahkan",
+	"importKey.cancelButton": "Batalkan",
+	"importKey.successAlert": "Berhasil!",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "Kunci WIF salah, Ulangi Lagi!",
+
+	// Send screen
+	"send.title": "Kirim",
+	"send.transactionSubtitle": "Rincian Transaksi",
+	"send.fromText": "Dari",
+	"send.toText": "Untuk",
+	"send.feeText": "Biaya",
+	"send.amountText": "Jumlah",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.timelockText": "tetapkan waktu",
+	"send.timelockInput": "Sentuh untuk pilih tanggal (tidak wajib)",
+	"send.confirmButton": "Konfirmasi",
+	"send.successAlert": "Berhasil!",
+	"send.errorAlert": "Kesalahan transaksi pengiriman!",
+	"send.confirmAlertButton": "OK",
+	"send.dismissScanModalButton": "Tutup pemindai QR",
+	"send.qrcodeButton": "Kde QR",
+	"send.addressBookButton": "Buku Alamat",
+	"send.clearButton": "Bersihkan",
+
+	// Wallet list screen
+	"walletList.title": "Daftar Dompet",
+	"walletList.empty": "Daftar Dompet Kosong",
+	"walletList.addButton": "Tambahkan",
+	"walletList.cancelButton": "Batalkan",
+
+	// Address list screen
+	"addressList.title": "Daftar Alamat",
+	"addressList.cancelButton": "Batalkan",
+
+	// Transaction details screen
+	"transactionDetails.title": "Rincian Transaksi",
+	"transactionDetails.sendText": "Pengiriman",
+	"transactionDetails.receivedText": "Penerimaan",
+	"transactionDetails.dateTooltipText": "Tanggal",
+	"transactionDetails.confirmationsTooltipText": "Konfirmasi",
+	"transactionDetails.txidTooltipText": "TXID",
+	"transactionDetails.fromTooltipText": "Dari",
+	"transactionDetails.toTooltipText": "Kepada",
+	"transactionDetails.explorerButton": "Eksplore Blockchain",
+	"transactionDetails.closeButton": "Tutup",
+	"transactionDetails.lockupTooltipText": "mengunci",
+	"transactionDetails.amountText": "Jumlah",
+	"transactionDetails.feeText": "Biaya",
+	"transactionDetails.alertTitle": "Kirim",
+	"transactionDetails.existNameAlert": "Buku Alamat Kosong",
+	"transactionDetails.confirmAlertButton": "OK",
+
+	// Confirmation screen
+	"confirmation.title": "Konfirmasi ",
+	"confirmation.subtitle": "Konfirmasikan penarikan koin dari dompet",
+	"confirmation.balanceTooltipText": "Saldo",
+	"confirmation.amountTooltipText": "Jumlah",
+	"confirmation.addressTooltipText": "Alamat",
+	"confirmation.feeTooltipText": "Biaya",
+	"confirmation.timelockTooltipText": "Tetapkan waktu",
+	"confirmation.confirmButton": "Konfirmasi",
+	"confirmation.cancelButton": "Batalkan",
+
+	// Wallet screen
+	"wallet.title": "Dompet",
+	"wallet.coinTitle": "Sugarchain",
+	"wallet.empty": "Riwayat koin kosong,dapatkan coin pertama anda",
+	"wallet.emptyReceiveTab": "Tab penerimaan",
+	"wallet.balanceTitle": "Saldo",
+	"wallet.lockedTitle": "Terkunci",
+	"wallet.lockedBalanceTitle": "Saldo Terkunci",
+	"wallet.networkStatusTitle": "Status Jaringan",
+	"wallet.settingsButton": "Pengaturan",
+	"wallet.mempool": "transaksi belum terkonfirmasi",
+
+	// Settings screen
+	"settings.title": "Pengaturan",
+	"settings.closeButton": "tutup",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "Bersihkan cache transaksi",
+	"settings.clearTxCacheTooltipText": "Hapus lokal transaksi dan isi ulang",
+	"settings.clearAddressBook": "Bersihkan buku alamat",
+	"settings.clearAddressBookTooltipText": "bersihkan semua alamat dari buku alamat",
+	"settings.copyRecoveryPhrase": "Salin kata kunci",
+	"settings.changePassword": "Rubah kata sandi",
+	"settings.changeLanguage": "Rubah Bahasa",
+	"settings.importWIF": "Impor kunci WIF",
+	"settings.walletList": "Untuk Urutan daftar dompet",
+	"settings.removeWallet": "Hapus dompet",
+	"settings.clearTxAlert": "Hapus semua alamat yg ditambahkan dari buku alamat!",
+	"settings.clearAddressBookAlert": "Buku alamat berhasil Dibersihkan!",
+	"settings.copySeedAlert": "Kata kunci berhasil disalin!",
+
+	// Language list screen
+	"languageList.title": "Bahasa",
+	"languageList.doneButton": "Selesai",
+}
