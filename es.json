@@ -38,8 +38,8 @@
 	"createWallet.confirmAlertButton": "OK",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Bienvenido a la",
-	"firstWallet.secondLineTitle": "Cartera de Sugarchain",
+	"firstWallet.firstLineTitle": "Cartera de Sugarchain",
+	"firstWallet.moto":"un CPU-un-voto, la cadena de bloqueo de PoW más rápida del mundo",
 	"firstWallet.tooltipText": "Para empezar a utilizar la aplicación, toque uno de los siguientes botones",
 	"firstWallet.createButton": "Crear una nueva cartera",
 	"firstWallet.importButton": "Importación de cartera",
@@ -123,7 +123,8 @@
 	"walletList.empty": "La lista de carteras está vacía",
 	"walletList.addButton": "Añadir",
 	"walletList.cancelButton": "Cancelar",
-
+	"walletList.notMigrated": "La cartera no ha migrado todavía",
+	
 	// Address list screen
 	"addressList.title": "Lista de direcciones",
 	"addressList.cancelButton": "Cancelar",
@@ -145,7 +146,8 @@
 	"transactionDetails.alertTitle": "Enviar",
 	"transactionDetails.existNameAlert": "La libreta de direcciones está vacía",
 	"transactionDetails.confirmAlertButton": "OK",
-
+	"transactionDetails.myWalletText": "Mi cartera",
+	
 	// Confirmation screen
 	"confirmation.title": "Confirmación de pago",
 	"confirmation.subtitle": "Confirmar la salida de las monedas de la cartera",
@@ -178,15 +180,20 @@
 	"settings.clearAddressBook": "Borrar libreta de direcciones",
 	"settings.clearAddressBookTooltipText": "Eliminar todas las direcciones añadidas de la libreta de direcciones",
 	"settings.copyRecoveryPhrase": "Copiar frase inicial",
+	"settings.copyRecoveryPhraseTooltipText": "Copia las 12 palabras clave que viste, al crear la cartera",
 	"settings.changePassword": "Cambiar la contraseña",
 	"settings.changeLanguage": "Cambiar el idioma",
 	"settings.importWIF": "Importación de la clave WIF",
 	"settings.walletList": "A la lista de la cartera",
 	"settings.removeWallet": "Quitar la cartera",
+	"settings.removeWalletTooltipText": "Quitar completamente la cartera de la aplicación",
 	"settings.clearTxAlert": "Elimine todas las direcciones añadidas de la libreta de direcciones!",
 	"settings.clearAddressBookAlert": "La libreta de direcciones ha sido limpiada con éxito!",
 	"settings.copySeedAlert": "La frase inicial ha sido copiada con éxito!",
-
+	"settings.removeWalletAlert": "Copiar y grabar la frase inicial. Si no, perderás la cartera para siempre. ¿Quieres quitar la cartera?",
+	"settings.doNotRemoveWalletButton": "No",
+	"settings.removeWalletButton": "Sí",
+	
 	// Language list screen
 	"languageList.title": "Idioma",
 	"languageList.doneButton": "Hecho",
