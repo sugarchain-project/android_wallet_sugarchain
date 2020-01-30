@@ -41,7 +41,7 @@
 	"createWallet.createWalletButton": "Yes",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "SugarWallet",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
 	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
