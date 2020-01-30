@@ -164,7 +164,7 @@
 
 	// Wallet screen
 	"wallet.title": "Wallet",
-	"wallet.coinTitle": "Sugar",
+	"wallet.coinTitle": "SUGAR",
 	"wallet.empty": "Wallet history is empty. Get your first coins in",
 	"wallet.emptyReceiveTab": "Receive tab",
 	"wallet.networkStatusTitle": "Network status",
