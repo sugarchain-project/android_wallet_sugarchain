@@ -18,7 +18,7 @@
 	"addAddress.incorrectAddressAlert": "Incorrect address!",
 	"addAddress.confirmAlertButton": "OK",
 	"addAddress.nameTooltipText": "At least 3 characters",
-	"addAddress.addressTooltipText": "Must be an Sugarchain address",
+	"addAddress.addressTooltipText": "Must be a Sugarchain address",
 	"addAddress.nameInput": "Name",
 	"addAddress.addressInput": "Address",
 	"addAddress.addButton": "Add",
@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "Address info",
-	"addAddress.subtitle": "Get all related to the address info",
+	"addressInfo.subtitle": "Get all related to the address info",
 
 	// Create wallet screen
 	"createWallet.title": "Create wallet",
@@ -36,10 +36,13 @@
 	"createWallet.nextButton": "Next",
 	"createWallet.copyAlert": "Seed phrase has been successfully copied!",
 	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	"createWallet.doNotCreateWalletButton": "No",
+	"createWallet.createWalletButton": "Yes",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Welcome to the",
-	"firstWallet.secondLineTitle": "Sugarchain wallet",
+	"firstWallet.firstLineTitle": "SugarWallet",
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
 	"firstWallet.importButton": "Import wallet",
@@ -58,7 +61,11 @@
 	"importWallet.walletTitle": "Title",
 	"importWallet.walletTitleExampleInput": "Input wallet title",
 	"importWallet.invalidTitle": "Invalid title. Too short value. Try again!",
+	"importWallet.notUniqueTitle": "Wallet title already on the list. Try to use another one to avoid mistakes.",
 	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	"importWallet.doNotImportWalletButton": "No",
+	"importWallet.importWalletButton": "Yes",
 
 	// Password screen
 	"password.title": "Password",
@@ -81,7 +88,7 @@
 	"password.useBioButton": "Yes",
 
 	// Receive screen
-	"receive.title": "Receive",
+	"receive.title": "Wallet information",
 	"receive.copyButton": "Copy",
 	"receive.newButton": "New",
 	"receive.importButton": "Import",
@@ -107,8 +114,6 @@
 	"send.feeText": "Fee",
 	"send.amountText": "Amount",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "Timelock",
-	"send.timelockInput": "Tap to select date (optional)",
 	"send.confirmButton": "Confirm",
 	"send.successAlert": "Success!",
 	"send.errorAlert": "Error sending transaction!",
@@ -123,6 +128,7 @@
 	"walletList.empty": "Wallet list is empty",
 	"walletList.addButton": "Add",
 	"walletList.cancelButton": "Cancel",
+	"walletList.notMigrated": "Wallet has not migrated yet",
 
 	// Address list screen
 	"addressList.title": "Address list",
@@ -139,12 +145,12 @@
 	"transactionDetails.toTooltipText": "To",
 	"transactionDetails.explorerButton": "Blockchain explorer",
 	"transactionDetails.closeButton": "Close",
-	"transactionDetails.lockupTooltipText": "Lockup",
 	"transactionDetails.amountText": "Amount",
 	"transactionDetails.feeText": "Fee",
 	"transactionDetails.alertTitle": "Send",
 	"transactionDetails.existNameAlert": "Address book is empty",
 	"transactionDetails.confirmAlertButton": "OK",
+	"transactionDetails.myWalletText": "My wallet",
 
 	// Confirmation screen
 	"confirmation.title": "Payment confirmation",
@@ -153,39 +159,37 @@
 	"confirmation.amountTooltipText": "Amount",
 	"confirmation.addressTooltipText": "Address",
 	"confirmation.feeTooltipText": "Fee",
-	"confirmation.timelockTooltipText": "Timelock",
 	"confirmation.confirmButton": "Confirm",
 	"confirmation.cancelButton": "Cancel",
 
 	// Wallet screen
 	"wallet.title": "Wallet",
-	"wallet.coinTitle": "Sugarchain",
+	"wallet.coinTitle": "Sugar",
 	"wallet.empty": "Wallet history is empty. Get your first coins in",
 	"wallet.emptyReceiveTab": "Receive tab",
-	"wallet.balanceTitle": "Balance",
-	"wallet.lockedTitle": "Locked",
-	"wallet.lockedBalanceTitle": "Locked balance",
 	"wallet.networkStatusTitle": "Network status",
-	"wallet.settingsButton": "Settings",
-	"wallet.mempool": "unconfirmed transactions",
 
 	// Settings screen
 	"settings.title": "Settings",
-	"settings.closeButton": "Close",
 	"settings.confirmAlertButton": "OK",
 	"settings.clearTxCache": "Clear transaction cache",
 	"settings.clearTxCacheTooltipText": "Remove local transaction list and reload it",
 	"settings.clearAddressBook": "Clear address book",
 	"settings.clearAddressBookTooltipText": "Remove all added addresses from address book",
 	"settings.copyRecoveryPhrase": "Copy seed phrase",
+	"settings.copyRecoveryPhraseTooltipText": "Copy 12 seed words you saw, when created a wallet",
 	"settings.changePassword": "Change password",
 	"settings.changeLanguage": "Change language",
 	"settings.importWIF": "Import WIF key",
 	"settings.walletList": "To wallet list",
 	"settings.removeWallet": "Remove wallet",
+	"settings.removeWalletTooltipText": "Fully remove the wallet from the app",
 	"settings.clearTxAlert": "Remove all added addresses from the address book!",
 	"settings.clearAddressBookAlert": "Address book has been successfully cleared!",
 	"settings.copySeedAlert": "Seed phrase has been successfully copied!",
+	"settings.removeWalletAlert": "Copy and save seed phrase. If not, you will lose wallet forever. Do you want to remove wallet?",
+	"settings.doNotRemoveWalletButton": "No",
+	"settings.removeWalletButton": "Yes",
 
 	// Language list screen
 	"languageList.title": "Language",
