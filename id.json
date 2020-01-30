@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "Informasi Alamat",
-	"addAddress.subtitle": "Dapatkan semua yang terkait dengan info alamat",
+	"addressInfo.subtitle": "Dapatkan semua yang terkait dengan info alamat",
 
 	// Create wallet screen
 	"createWallet.title": "Membuat Dompet",
@@ -36,8 +36,12 @@
 	"createWallet.nextButton": "Selanjutnya",
 	"createWallet.copyAlert": "Kata pemulihan berhasil disalin!",
 	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "Apakah Anda menyalin dan menyimpan kata kata kunci? Jika tidak, Anda bisa kehilangan dompet di masa depan. Apakah Anda ingin mengimpor dompet?",
+	"createWallet.doNotCreateWalletButton": "Tidak",
+	"createWallet.createWalletButton": "Ya",
 
 	// First wallet screen
+
 	"firstWallet.firstLineTitle": "Dompet Sugarchain",
 	"firstWallet.moto":"satu-CPU-satu-suara, blockchain PoW tercepat di dunia",
 	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
@@ -58,7 +62,11 @@
 	"importWallet.walletTitle": "Nama",
 	"importWallet.walletTitleExampleInput": "Tuliskan nama untuk dompet",
 	"importWallet.invalidTitle": "Nama salah,terlalu pendek. Ulangi lagi!",
+	"importWallet.notUniqueTitle": "Judul dompet sudah ada di daftar. Coba gunakan yang lain untuk menghindari kesalahan.",
 	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "Apakah Anda sudah menyalin dan menyimpan kata kunci? Jika tidak, Anda bisa kehilangan dompet di masa depan. Apakah Anda ingin mengimpor dompet?",
+	"importWallet.doNotImportWalletButton": "Tidak",
+	"importWallet.importWalletButton": "Ya",
 
 	// Password screen
 	"password.title": "Kata sandi",
@@ -81,7 +89,7 @@
 	"password.useBioButton": "Ya",
 
 	// Receive screen
-	"receive.title": "Menerima",
+	"receive.title": "Informasi Dompet",
 	"receive.copyButton": "Salin",
 	"receive.newButton": "Baru",
 	"receive.importButton": "Impor",
@@ -107,8 +115,6 @@
 	"send.feeText": "Biaya",
 	"send.amountText": "Jumlah",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "tetapkan waktu",
-	"send.timelockInput": "Sentuh untuk pilih tanggal (tidak wajib)",
 	"send.confirmButton": "Konfirmasi",
 	"send.successAlert": "Berhasil!",
 	"send.errorAlert": "Kesalahan transaksi pengiriman!",
@@ -124,7 +130,7 @@
 	"walletList.addButton": "Tambahkan",
 	"walletList.cancelButton": "Batalkan",
 	"walletList.notMigrated": "Dompet belum dimigrasi",
-	
+
 	// Address list screen
 	"addressList.title": "Daftar Alamat",
 	"addressList.cancelButton": "Batalkan",
@@ -138,16 +144,15 @@
 	"transactionDetails.txidTooltipText": "TXID",
 	"transactionDetails.fromTooltipText": "Dari",
 	"transactionDetails.toTooltipText": "Kepada",
-	"transactionDetails.explorerButton": "Eksplore Blockchain",
+	"transactionDetails.explorerButton": "Jelajahi Blockchain",
 	"transactionDetails.closeButton": "Tutup",
-	"transactionDetails.lockupTooltipText": "mengunci",
 	"transactionDetails.amountText": "Jumlah",
 	"transactionDetails.feeText": "Biaya",
 	"transactionDetails.alertTitle": "Kirim",
 	"transactionDetails.existNameAlert": "Buku Alamat Kosong",
 	"transactionDetails.confirmAlertButton": "OK",
 	"transactionDetails.myWalletText": "Dompetku",
-	
+
 	// Confirmation screen
 	"confirmation.title": "Konfirmasi ",
 	"confirmation.subtitle": "Konfirmasikan penarikan koin dari dompet",
@@ -161,19 +166,13 @@
 
 	// Wallet screen
 	"wallet.title": "Dompet",
-	"wallet.coinTitle": "Sugarchain",
+	"wallet.coinTitle": "Sugar",
 	"wallet.empty": "Riwayat koin kosong,dapatkan coin pertama anda",
 	"wallet.emptyReceiveTab": "Tab penerimaan",
-	"wallet.balanceTitle": "Saldo",
-	"wallet.lockedTitle": "Terkunci",
-	"wallet.lockedBalanceTitle": "Saldo Terkunci",
 	"wallet.networkStatusTitle": "Status Jaringan",
-	"wallet.settingsButton": "Pengaturan",
-	"wallet.mempool": "transaksi belum terkonfirmasi",
-
+	
 	// Settings screen
 	"settings.title": "Pengaturan",
-	"settings.closeButton": "tutup",
 	"settings.confirmAlertButton": "OK",
 	"settings.clearTxCache": "Bersihkan cache transaksi",
 	"settings.clearTxCacheTooltipText": "Hapus lokal transaksi dan isi ulang",
@@ -193,7 +192,7 @@
 	"settings.removeWalletAlert": "Salin dan simpan salin kata kunci. Jika tidak, Anda akan kehilangan dompet selamanya. Apakah Anda ingin menghapus dompet?",
 	"settings.doNotRemoveWalletButton": "Tidak",
 	"settings.removeWalletButton": "Iya",
-	
+
 	// Language list screen
 	"languageList.title": "Bahasa",
 	"languageList.doneButton": "Selesai",
