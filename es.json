@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "Información de la dirección",
-	"addAddress.subtitle": "Obtener todo lo relacionado con la información de la dirección",
+	"addressInfo.subtitle": "Consigue todo lo relacionado con la información de la dirección",
 
 	// Create wallet screen
 	"createWallet.title": "Crear una cartera",
@@ -36,9 +36,12 @@
 	"createWallet.nextButton": "Siguiente",
 	"createWallet.copyAlert": "La frase inicial ha sido copiada con éxito!",
 	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "¿Copió y guardó la frase inicial? Si no, puedes perder la cartera en el futuro. ¿Quieres importar la cartera?",
+	"createWallet.doNotCreateWalletButton": "No",
+	"createWallet.createWalletButton": "Sí",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Cartera de Sugarchain",
+	"firstWallet.firstLineTitle": "Cartera de azúcar",
 	"firstWallet.moto":"un CPU-un-voto, la cadena de bloqueo de PoW más rápida del mundo",
 	"firstWallet.tooltipText": "Para empezar a utilizar la aplicación, toque uno de los siguientes botones",
 	"firstWallet.createButton": "Crear una nueva cartera",
@@ -58,8 +61,12 @@
 	"importWallet.walletTitle": "Título",
 	"importWallet.walletTitleExampleInput": "ingresar el nombre de la cartera ",
 	"importWallet.invalidTitle": "Nombre inválido. Valor demasiado corto.  Inténtelo de nuevo!",
+	"importWallet.notUniqueTitle": "El título de la cartera ya está en la lista. Intenta usar otro para evitar errores.",
 	"importWallet.confirmAlertButton": "OK",
-
+	"importWallet.walletImportAlert": "¿Copió y guardó la frase inicial? Si no, puedes perder la cartera en el futuro. ¿Quieres importar la cartera?",
+	"importWallet.doNotImportWalletButton": "No",
+	"importWallet.importWalletButton": "Sí",
+	
 	// Password screen
 	"password.title": "Contraseña",
 	"password.enterPINTitle": "Introduzca la contraseña",
@@ -81,7 +88,7 @@
 	"password.useBioButton": "Sí",
 
 	// Receive screen
-	"receive.title": "Recibir",
+	"receive.title": "Información de la cartera",
 	"receive.copyButton": "Copia",
 	"receive.newButton": "Nuevo",
 	"receive.importButton": "Importación",
@@ -107,8 +114,6 @@
 	"send.feeText": "Cuota",
 	"send.amountText": "Cantidad",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "Bloqueo horario",
-	"send.timelockInput": "Presione para seleccionar la fecha (opcional)",
 	"send.confirmButton": "Confirme",
 	"send.successAlert": "Éxito!",
 	"send.errorAlert": "Error al enviar la transacción!",
@@ -140,7 +145,6 @@
 	"transactionDetails.toTooltipText": "Para",
 	"transactionDetails.explorerButton": "Explorador Blockchain",
 	"transactionDetails.closeButton": "Cerrar",
-	"transactionDetails.lockupTooltipText": "cerrar con llave",
 	"transactionDetails.amountText": "Cantidad",
 	"transactionDetails.feeText": "Cuota",
 	"transactionDetails.alertTitle": "Enviar",
@@ -155,25 +159,18 @@
 	"confirmation.amountTooltipText": "Cantidad",
 	"confirmation.addressTooltipText": "Dirección",
 	"confirmation.feeTooltipText": "Cuota",
-	"confirmation.timelockTooltipText": "Bloqueo horario",
 	"confirmation.confirmButton": "confirmar",
 	"confirmation.cancelButton": "Cancelar",
 
 	// Wallet screen
 	"wallet.title": "Cartera",
-	"wallet.coinTitle": "Sugarchain",
+	"wallet.coinTitle": "Azúcar",
 	"wallet.empty": "El historial de la cartera está vacío. Consigue tus primeras monedas",
 	"wallet.emptyReceiveTab": "Recibir tab",
-	"wallet.balanceTitle": "Saldo",
-	"wallet.lockedTitle": "Cerrado",
-	"wallet.lockedBalanceTitle": "Saldo Cerrado",
 	"wallet.networkStatusTitle": "Estado de la red",
-	"wallet.settingsButton": "Configuraciones",
-	"wallet.mempool": "transacciones no confirmadas",
 
 	// Settings screen
 	"settings.title": "Configuraciones",
-	"settings.closeButton": "Cerrar",
 	"settings.confirmAlertButton": "OK",
 	"settings.clearTxCache": "Borrar la caché de transacciones",
 	"settings.clearTxCacheTooltipText": "Eliminar la lista de transacciones local y recargarla",
