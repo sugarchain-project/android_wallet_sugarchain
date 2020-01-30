@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "주소 정보",
-	"addAddress.subtitle": "주소 정보와 관련된 모든것",
+	"addressInfo.subtitle": "주소 정보와 관련된 모든것",
 
 	// Create wallet screen
 	"createWallet.title": "지갑 생성하기",
@@ -36,10 +36,13 @@
 	"createWallet.nextButton": "다음",
 	"createWallet.copyAlert": "복구 단어가 성공적으로 복사되었습니다!",
 	"createWallet.confirmAlertButton": "확인",
+	// TODO "createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	// TODO "createWallet.doNotCreateWalletButton": "No",
+	// TODO "createWallet.createWalletButton": "Yes",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "환영합니다",
-	"firstWallet.secondLineTitle": "슈가체인 지갑",
+	// DO_NOT "firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
+	// DO_NOT "firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "시작하려면 아래 버튼중 하나를 탭하세요",
 	"firstWallet.createButton": "지갑 생성하기",
 	"firstWallet.importButton": "지갑 복구하기",
@@ -58,7 +61,11 @@
 	"importWallet.walletTitle": "지갑 별명",
 	"importWallet.walletTitleExampleInput": "지갑 별명을 입력해주세요",
 	"importWallet.invalidTitle": "지갑 별명이 너무 짧습니다. 다시 시도해주세요!",
-	"importWallet.confirmAlertButton": "확인",
+	// TODO "importWallet.notUniqueTitle": "Wallet title already on the list. Try to use another one to avoid mistakes.",
+	// TODO "importWallet.confirmAlertButton": "확인",
+	// TODO "importWallet.walletImportAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	// TODO "importWallet.doNotImportWalletButton": "No",
+	// TODO "importWallet.importWalletButton": "Yes",
 
 	// Password screen
 	"password.title": "비밀번호",
@@ -81,7 +88,7 @@
 	"password.useBioButton": "예",
 
 	// Receive screen
-	"receive.title": "받기",
+	// TODO "receive.title": "Wallet information",
 	"receive.copyButton": "복사",
 	"receive.newButton": "추가",
 	"receive.importButton": "복구",
@@ -107,8 +114,6 @@
 	"send.feeText": "수수료",
 	"send.amountText": "전송량",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "타임락",
-	"send.timelockInput": "날짜를 선택해주세요 (선택사항)",
 	"send.confirmButton": "확인",
 	"send.successAlert": "성공!",
 	"send.errorAlert": "전송에 실패했습니다!",
@@ -123,13 +128,14 @@
 	"walletList.empty": "주소록이 비어있습니다.",
 	"walletList.addButton": "추가",
 	"walletList.cancelButton": "취소",
+	// DO_NOT "walletList.notMigrated": "Wallet has not migrated yet",
 
 	// Address list screen
 	"addressList.title": "주소록",
 	"addressList.cancelButton": "취소",
 
 	// Transaction details screen
-	"transactionDetails.title": "전속내역",
+	"transactionDetails.title": "전송내역",
 	"transactionDetails.sendText": "보냄",
 	"transactionDetails.receivedText": "받음",
 	"transactionDetails.dateTooltipText": "날짜",
@@ -139,12 +145,12 @@
 	"transactionDetails.toTooltipText": "받는곳",
 	"transactionDetails.explorerButton": "블록체인 탐색기",
 	"transactionDetails.closeButton": "닫기",
-	"transactionDetails.lockupTooltipText": "락업",
 	"transactionDetails.amountText": "전송량",
 	"transactionDetails.feeText": "수수료",
 	"transactionDetails.alertTitle": "보내기",
 	"transactionDetails.existNameAlert": "주소록이 비어있습니다",
 	"transactionDetails.confirmAlertButton": "확인",
+	// DO_NOT "transactionDetails.myWalletText": "My wallet",
 
 	// Confirmation screen
 	"confirmation.title": "지불 확인",
@@ -153,36 +159,31 @@
 	"confirmation.amountTooltipText": "수량",
 	"confirmation.addressTooltipText": "주소",
 	"confirmation.feeTooltipText": "수수료",
-	"confirmation.timelockTooltipText": "타임락",
 	"confirmation.confirmButton": "확인",
 	"confirmation.cancelButton": "취소",
 
 	// Wallet screen
 	"wallet.title": "지갑",
-	"wallet.coinTitle": "슈가체인",
+	// DO_NOT "wallet.coinTitle": "SUGAR",
 	"wallet.empty": "전송 내역이 비어있습니다. 코인을 전송해주세요.",
 	"wallet.emptyReceiveTab": "받기 탭",
-	"wallet.balanceTitle": "잔액",
-	"wallet.lockedTitle": "잠겼습니다",
-	"wallet.lockedBalanceTitle": "잠겨진 잔액",
 	"wallet.networkStatusTitle": "네트워크 상태",
-	"wallet.settingsButton": "설정",
-	"wallet.mempool": "아직 확인되지 않은 전송",
 
 	// Settings screen
 	"settings.title": "설정",
-	"settings.closeButton": "닫기",
 	"settings.confirmAlertButton": "확인",
 	"settings.clearTxCache": "전송 캐시 삭제",
 	"settings.clearTxCacheTooltipText": "로컬 전송내역을 삭제하고 다시 불러옵니다",
 	"settings.clearAddressBook": "주소록 초기화",
 	"settings.clearAddressBookTooltipText": "주소록에 추가한 모든 주소를 삭제합니다",
 	"settings.copyRecoveryPhrase": "복구키를 클립보드에 복사",
+	// TODO "settings.copyRecoveryPhraseTooltipText": "Copy 12 seed words you saw, when created a wallet",
 	"settings.changePassword": "비밀변호 변경",
 	"settings.changeLanguage": "언어 변경",
 	"settings.importWIF": "WIF 복구 키",
 	"settings.walletList": "지갑 목록으로",
 	"settings.removeWallet": "지갑 삭제",
+	// TODO "settings.removeWalletTooltipText": "Fully remove the wallet from the app",
 	"settings.clearTxAlert": "주소록에 추가된 모든 주소가 초기화 되었습니다!",
 	"settings.clearAddressBookAlert": "주소록이 성공적으로 초기화 되었습니다!",
 	"settings.copySeedAlert": "복구키가 클립보드에 성공적으로 복사되었습니다!",
