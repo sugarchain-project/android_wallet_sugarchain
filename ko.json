@@ -26,23 +26,23 @@
 
 	// Address info screen
 	"addressInfo.title": "주소 정보",
-	"addressInfo.subtitle": "주소 정보와 관련된 모든것",
+	"addressInfo.subtitle": "주소 정보와 관련된 모든것 받기",
 
 	// Create wallet screen
 	"createWallet.title": "지갑 생성하기",
 	"createWallet.seedSubtitle": "복구 단어",
 	"createWallet.copyButton": "복사",
-	"createWallet.tooltipText": "이 복구 단어를 다음 순서대로 기록하거나 복사 후 안전하게 보관해주세요! 절대로 당신의 복구 단어를 누구에게도 알려주지 마십시오.",
+	"createWallet.tooltipText": "이 복구 단어를 순서대로 기록하고 복사 후 안전하게 보관하세요! 절대로 당신의 복구 단어를 누구에게도 알려주지 마십시오.",
 	"createWallet.nextButton": "다음",
 	"createWallet.copyAlert": "복구 단어가 성공적으로 복사되었습니다!",
 	"createWallet.confirmAlertButton": "확인",
-	// TODO "createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
-	// TODO "createWallet.doNotCreateWalletButton": "No",
-	// TODO "createWallet.createWalletButton": "Yes",
+	"createWallet.walletCreateAlert": "복구 단어를 확실히 저장했나요? 그렇지 않으면 자산을 잃게 됩니다! 지갑을 생성 할까요?",
+	"createWallet.doNotCreateWalletButton": "아니오",
+	"createWallet.createWalletButton": "네",
 
 	// First wallet screen
-	// DO_NOT "firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
-	// DO_NOT "firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
+	// DO_NOT_TRANSLATE "firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
+	// DO_NOT_TRANSLATE "firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "시작하려면 아래 버튼중 하나를 탭하세요",
 	"firstWallet.createButton": "지갑 생성하기",
 	"firstWallet.importButton": "지갑 복구하기",
@@ -61,11 +61,11 @@
 	"importWallet.walletTitle": "지갑 별명",
 	"importWallet.walletTitleExampleInput": "지갑 별명을 입력해주세요",
 	"importWallet.invalidTitle": "지갑 별명이 너무 짧습니다. 다시 시도해주세요!",
-	// TODO "importWallet.notUniqueTitle": "Wallet title already on the list. Try to use another one to avoid mistakes.",
-	// TODO "importWallet.confirmAlertButton": "확인",
-	// TODO "importWallet.walletImportAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
-	// TODO "importWallet.doNotImportWalletButton": "No",
-	// TODO "importWallet.importWalletButton": "Yes",
+	"importWallet.notUniqueTitle": "지갑 별명이 이미 존재합니다. 다른이름으로 시도해주세요.",
+	"importWallet.confirmAlertButton": "확인",
+	"importWallet.walletImportAlert": "복구 단어를 확실히 저장했나요? 그렇지 않으면 자산을 잃게 됩니다! 지갑을 복구 할까요?",
+	"importWallet.doNotImportWalletButton": "아니오",
+	"importWallet.importWalletButton": "네",
 
 	// Password screen
 	"password.title": "비밀번호",
@@ -88,7 +88,7 @@
 	"password.useBioButton": "예",
 
 	// Receive screen
-	// TODO "receive.title": "Wallet information",
+	"receive.title": "지갑 정보",
 	"receive.copyButton": "복사",
 	"receive.newButton": "추가",
 	"receive.importButton": "복구",
@@ -104,7 +104,7 @@
 	"importKey.cancelButton": "취소",
 	"importKey.successAlert": "성공!",
 	"importKey.confirmAlertButton": "확인",
-	"importKey.importErrorAlert": "올바른 개인 키(WIF형식)가 아닙니다. 다시 시도해주세요!",
+	"importKey.importErrorAlert": "올바른 개인 키 (WIF형식) 가 아닙니다. 다시 시도해주세요!",
 
 	// Send screen
 	"send.title": "보내기",
@@ -128,7 +128,7 @@
 	"walletList.empty": "주소록이 비어있습니다.",
 	"walletList.addButton": "추가",
 	"walletList.cancelButton": "취소",
-	// DO_NOT "walletList.notMigrated": "Wallet has not migrated yet",
+	"walletList.notMigrated": "지갑이 아직 마이그레이션 되지 않았습니다",
 
 	// Address list screen
 	"addressList.title": "주소록",
@@ -150,7 +150,7 @@
 	"transactionDetails.alertTitle": "보내기",
 	"transactionDetails.existNameAlert": "주소록이 비어있습니다",
 	"transactionDetails.confirmAlertButton": "확인",
-	// DO_NOT "transactionDetails.myWalletText": "My wallet",
+	"transactionDetails.myWalletText": "내 지갑",
 
 	// Confirmation screen
 	"confirmation.title": "지불 확인",
@@ -176,17 +176,20 @@
 	"settings.clearTxCacheTooltipText": "로컬 전송내역을 삭제하고 다시 불러옵니다",
 	"settings.clearAddressBook": "주소록 초기화",
 	"settings.clearAddressBookTooltipText": "주소록에 추가한 모든 주소를 삭제합니다",
-	"settings.copyRecoveryPhrase": "복구키를 클립보드에 복사",
-	// TODO "settings.copyRecoveryPhraseTooltipText": "Copy 12 seed words you saw, when created a wallet",
+	"settings.copyRecoveryPhrase": "복구 단어를 클립보드에 복사",
+	"settings.copyRecoveryPhraseTooltipText": "지갑을 생성할때 보았던 복구 단어 12개를 복사하세요",
 	"settings.changePassword": "비밀변호 변경",
 	"settings.changeLanguage": "언어 변경",
 	"settings.importWIF": "WIF 복구 키",
 	"settings.walletList": "지갑 목록으로",
 	"settings.removeWallet": "지갑 삭제",
-	// TODO "settings.removeWalletTooltipText": "Fully remove the wallet from the app",
+	"settings.removeWalletTooltipText": "지갑을 앱에서 완전히 삭제합니다",
 	"settings.clearTxAlert": "주소록에 추가된 모든 주소가 초기화 되었습니다!",
 	"settings.clearAddressBookAlert": "주소록이 성공적으로 초기화 되었습니다!",
 	"settings.copySeedAlert": "복구키가 클립보드에 성공적으로 복사되었습니다!",
+	"settings.removeWalletAlert": "복구 단어를 저장하지 않으면 지갑을 영원히 잃게됩니다. 지갑을 삭제 할까요?",
+	"settings.doNotRemoveWalletButton": "아니오",
+	"settings.removeWalletButton": "네",
 
 	// Language list screen
 	"languageList.title": "언어",
