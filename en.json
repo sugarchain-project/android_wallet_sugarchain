@@ -36,7 +36,7 @@
 	"createWallet.nextButton": "Next",
 	"createWallet.copyAlert": "Seed phrase has been successfully copied!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	"createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to create wallet?",
 	"createWallet.doNotCreateWalletButton": "No",
 	"createWallet.createWalletButton": "Yes",
 
