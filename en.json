@@ -18,7 +18,7 @@
 	"addAddress.incorrectAddressAlert": "Incorrect address!",
 	"addAddress.confirmAlertButton": "OK",
 	"addAddress.nameTooltipText": "At least 3 characters",
-	"addAddress.addressTooltipText": "Must be an Sugarchain address",
+	"addAddress.addressTooltipText": "Must be a Sugarchain address",
 	"addAddress.nameInput": "Name",
 	"addAddress.addressInput": "Address",
 	"addAddress.addButton": "Add",
@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "Address info",
-	"addAddress.subtitle": "Get all related to the address info",
+	"addressInfo.subtitle": "Get all related to the address info",
 
 	// Create wallet screen
 	"createWallet.title": "Create wallet",
@@ -38,7 +38,7 @@
 	"createWallet.confirmAlertButton": "OK",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Sugarchain wallet",
+	"firstWallet.firstLineTitle": "SugarWallet",
 	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
@@ -81,7 +81,7 @@
 	"password.useBioButton": "Yes",
 
 	// Receive screen
-	"receive.title": "Receive",
+	"receive.title": "Wallet information",
 	"receive.copyButton": "Copy",
 	"receive.newButton": "New",
 	"receive.importButton": "Import",
@@ -107,8 +107,6 @@
 	"send.feeText": "Fee",
 	"send.amountText": "Amount",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "Timelock",
-	"send.timelockInput": "Tap to select date (optional)",
 	"send.confirmButton": "Confirm",
 	"send.successAlert": "Success!",
 	"send.errorAlert": "Error sending transaction!",
@@ -140,7 +138,6 @@
 	"transactionDetails.toTooltipText": "To",
 	"transactionDetails.explorerButton": "Blockchain explorer",
 	"transactionDetails.closeButton": "Close",
-	"transactionDetails.lockupTooltipText": "Lockup",
 	"transactionDetails.amountText": "Amount",
 	"transactionDetails.feeText": "Fee",
 	"transactionDetails.alertTitle": "Send",
@@ -155,25 +152,19 @@
 	"confirmation.amountTooltipText": "Amount",
 	"confirmation.addressTooltipText": "Address",
 	"confirmation.feeTooltipText": "Fee",
-	"confirmation.timelockTooltipText": "Timelock",
 	"confirmation.confirmButton": "Confirm",
 	"confirmation.cancelButton": "Cancel",
 
 	// Wallet screen
 	"wallet.title": "Wallet",
-	"wallet.coinTitle": "Sugarchain",
+	"wallet.coinTitle": "Sugar",
 	"wallet.empty": "Wallet history is empty. Get your first coins in",
 	"wallet.emptyReceiveTab": "Receive tab",
 	"wallet.balanceTitle": "Balance",
-	"wallet.lockedTitle": "Locked",
-	"wallet.lockedBalanceTitle": "Locked balance",
 	"wallet.networkStatusTitle": "Network status",
-	"wallet.settingsButton": "Settings",
-	"wallet.mempool": "unconfirmed transactions",
 
 	// Settings screen
 	"settings.title": "Settings",
-	"settings.closeButton": "Close",
 	"settings.confirmAlertButton": "OK",
 	"settings.clearTxCache": "Clear transaction cache",
 	"settings.clearTxCacheTooltipText": "Remove local transaction list and reload it",
