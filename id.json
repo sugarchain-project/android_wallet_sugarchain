@@ -42,7 +42,7 @@
 
 	// First wallet screen
 	"firstWallet.firstLineTitle": "Dompet Sugar",
-	"firstWallet.moto":"satu-CPU-satu-vote,PoW blockchain tercepat di dunia",
+	"firstWallet.moto": "satu-CPU-satu-vote,PoW blockchain tercepat di dunia",
 	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
 	"firstWallet.createButton": "Membuat Dompet Baru",
 	"firstWallet.importButton": "Impor dompet",
@@ -128,7 +128,7 @@
 	"walletList.empty": "Daftar Dompet Kosong",
 	"walletList.addButton": "Tambahkan",
 	"walletList.cancelButton": "Batalkan",
-	"walletList.notMigrated": "Dompet belum berpindah ",
+	"walletList.notMigrated": "Dompet belum berpindah",
 
 	// Address list screen
 	"addressList.title": "Daftar Alamat",
