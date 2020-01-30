@@ -18,7 +18,7 @@
 	"addAddress.incorrectAddressAlert": "Неправильный адрес!",
 	"addAddress.confirmAlertButton": "OK",
 	"addAddress.nameTooltipText": "Минимум 3 символы",
-	"addAddress.addressTooltipText": "Должна быть MicroBitcoin адрес",
+	"addAddress.addressTooltipText": "Должна быть Sugarchain адрес",
 	"addAddress.nameInput": "Название",
 	"addAddress.addressInput": "Адрес",
 	"addAddress.addButton": "Добавить",
