@@ -164,7 +164,7 @@
 
 	// Wallet screen
 	"wallet.title": "지갑",
-	// DO_NOT "wallet.coinTitle": "SUGAR",
+	// DO_NOT_TRANSLATE "wallet.coinTitle": "SUGAR",
 	"wallet.empty": "전송 내역이 비어있습니다. 코인을 전송해주세요.",
 	"wallet.emptyReceiveTab": "받기 탭",
 	"wallet.networkStatusTitle": "네트워크 상태",
