@@ -88,7 +88,8 @@
 	"password.useBioButton": "예",
 
 	// Receive screen
-	"receive.title": "지갑 정보",
+	"receive.title": "받기",
+	"receive.infoSubtitle": "지갑 정보",
 	"receive.copyButton": "복사",
 	"receive.newButton": "추가",
 	"receive.importButton": "복구",
