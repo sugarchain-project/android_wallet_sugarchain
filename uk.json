@@ -41,8 +41,8 @@
 	"createWallet.createWalletButton": "Так",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "SugarWallet",
-	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "Щоб розпочати користування додатком, натисніть на одну з нижче представлених кнопок",
 	"firstWallet.createButton": "Створити новий гаманець",
 	"firstWallet.importButton": "Імпортувати гаманець",
@@ -88,7 +88,8 @@
 	"password.useBioButton": "Так",
 
 	// Receive screen
-	"receive.title": "Інформація про гаманець",
+	"receive.title": "Отримати",
+	"receive.infoSubtitle": "Інформація про гаманець",
 	"receive.copyButton": "Копіювати",
 	"receive.newButton": "Нову",
 	"receive.importButton": "Імпортувати",
@@ -164,7 +165,7 @@
 
 	// Wallet screen
 	"wallet.title": "Гаманець",
-	"wallet.coinTitle": "SugarWallet",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "Історія гаманця пуста. Отримайте свої перші монети у",
 	"wallet.emptyReceiveTab": "Вкладка Отримати",
 	"wallet.networkStatusTitle": "Статус мережі",
