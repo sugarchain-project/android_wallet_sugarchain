@@ -1,0 +1,198 @@
+{
+	// Address book screen
+	"addressBook.title": "Адресная книга",
+	"addressBook.sendButton": "Отправить",
+	"addressBook.removeButton": "Удалить",
+	"addressBook.nameInput": "Название",
+	"addressBook.addressInput": "Адрес",
+	"addressBook.addAddressButton": "Добавить адрес",
+	"addressBook.empty": "Адресная книга пуста.",
+
+	// Adding an address screen
+	"addAddress.title": "Добавить адрес",
+	"addAddress.subtitle": "Добавьте адрес в адресную книгу",
+	"addAddress.existNameAlert": "Адрес с таким названием уже существует в адресной книге. Попробуйте еще раз!",
+	"addAddress.existAddressAlert": "Адрес уже существует в адресной книге. Попробуйте еще раз!",
+	"addAddress.successAlert": "Успешно!",
+	"addAddress.incorrectNameAlert": "Неправильное название!",
+	"addAddress.incorrectAddressAlert": "Неправильный адрес!",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "Минимум 3 символа",
+	"addAddress.addressTooltipText": "Должна быть Sugarchain адрес",
+	"addAddress.nameInput": "Название",
+	"addAddress.addressInput": "Адрес",
+	"addAddress.addButton": "Добавить",
+	"addAddress.cancelButton": "Отменить",
+
+	// Address info screen
+	"addressInfo.title": "Информация об адресе",
+	"addressInfo.subtitle": "Получить всю релевантную информацию относительно адреса",
+
+	// Create wallet screen
+	"createWallet.title": "Создать кошелек",
+	"createWallet.seedSubtitle": "Ваша фраза",
+	"createWallet.copyButton": "Копировать",
+	"createWallet.tooltipText": "Запишите эти слова или скопируйте в безопасное место! Не сообщайте фразу восстановления никому.",
+	"createWallet.nextButton": "Далее",
+	"createWallet.copyAlert": "Seed фраза успешно скопирована!",
+	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять свои средства. Вы хотите создать кошелек?",
+	"createWallet.doNotCreateWalletButton": "Нет",
+	"createWallet.createWalletButton": "Да",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",  // DO_NOT_TRANSLATE
+	"firstWallet.tooltipText": "Чтобы начать использовать приложение, нажмите на одну из кнопок ниже",
+	"firstWallet.createButton": "Создать новый кошелек",
+	"firstWallet.importButton": "Импортировать кошелек",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "Создание кошелька",
+	"generateWallet.tooltipText": "Это займет некоторое время, наберитесь терпения.",
+
+	// Import wallet screen
+	"importWallet.title": "Импорт кошелька",
+	"importWallet.seedSubtitle": "Введите фразу восстановления",
+	"importWallet.seedInput": "Начните вводить Вашу фразу",
+	"importWallet.tooltipText": "12 слов, разделенных одним пробелом.",
+	"importWallet.nextButton": "Следующий",
+	"importWallet.invalidSeedAlert": "Некорректная фраза восстановления. Попробуйте еще раз!",
+	"importWallet.walletTitle": "Название",
+	"importWallet.walletTitleExampleInput": "Введите название кошелька",
+	"importWallet.invalidTitle": "Название слишком короткое. Попробуйте еще раз!",
+	"importWallet.notUniqueTitle": "Уже существует кошелёк с таким нзванием. Попробуйте использовать другое название кошелька",
+	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "Вы скопировали и сохранили фразу восстановления? Если нет, то в будущем вы можете потерять кошелек. Вы хотите импортировать кошелек?",
+	"importWallet.doNotImportWalletButton": "Нет",
+	"importWallet.importWalletButton": "Да",
+
+	// Password screen
+	"password.title": "PIN-код",
+	"password.enterPINTitle": "Введите PIN-код",
+	"password.enterNewPINTitle": "Введите новый PIN-код",
+	"password.repeatNewPINTitle": "Повторите новый PIN-код",
+	"password.setPassword": "Запомнить пароль",
+	"password.confirmPassword": "Подтвердить пароль",
+	"password.enterPassword": "Открыть кошелек",
+	"password.cancelButton": "Отменить",
+	"password.incorrectPINAlert": "Ваш PIN-код некорректный. Попробуйте еще раз!",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "для открытия кошелька",
+	"password.android.biomentricTitle": "Необходима аутентификация",
+	"password.android.biomentricTooltipText": "Сенсорный датчик",
+	"password.android.biomentricError": "Ошибка",
+	"password.doNotMatchAlert": "Ваши PIN-коды не совпадают. Попробуйте еще раз!",
+	"password.useBioAlert": "Вы хотите использовать биометрическую аутентификацию?",
+	"password.doNotUseBioButton": "Нет",
+	"password.useBioButton": "Да",
+
+	// Receive screen
+	"receive.title": "Получить",
+	"receive.infoSubtitle": "Информация о кошельке",
+	"receive.copyButton": "Копировать",
+	"receive.newButton": "Новая",
+	"receive.importButton": "Импорт",
+	"receive.copyAlert": "Адрес успешно скопирована!",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "Импортировать WIF ключ",
+	"importKey.subtitle": "Добавьте адрес и частный ключ к адресам кошелька",
+	"importKey.keyInput": "WIF ключ",
+	"importKey.keyTooltipText": "Должен быть валидный ключ",
+	"importKey.addButton": "Добавить",
+	"importKey.cancelButton": "Отменить",
+	"importKey.successAlert": "Успешно!",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "Некорректный WIF ключ. Попробуйте еще раз!",
+
+	// Send screen
+	"send.title": "Отправить",
+	"send.transactionSubtitle": "Детали транзакции",
+	"send.fromText": "От",
+	"send.toText": "До",
+	"send.feeText": "Комиссия",
+	"send.amountText": "Количество",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.confirmButton": "Подтвердить",
+	"send.successAlert": "Успешно!",
+	"send.errorAlert": "Ошибка отправки транзакции!",
+	"send.confirmAlertButton": "ОК",
+	"send.dismissScanModalButton": "Закрыть QR-сканер",
+	"send.qrcodeButton": "QR-код",
+	"send.addressBookButton": "Адресная книга",
+	"send.clearButton": "Очистить",
+
+	// Wallet list screen
+	"walletList.title": "Список кошельков",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
+	"walletList.empty": "Список кошельков пустой.",
+	"walletList.addButton": "Добавить",
+	"walletList.cancelButton": "Отменить",
+	"walletList.notMigrated": "Кошелек еще не перемещен",
+
+	// Address list screen
+	"addressList.title": "Список адрес",
+	"addressList.cancelButton": "Отменить",
+
+	// Transaction details screen
+	"transactionDetails.title": "Детали транзакции",
+	"transactionDetails.sendText": "Отправлено",
+	"transactionDetails.receivedText": "Получено",
+	"transactionDetails.dateTooltipText": "Дата",
+	"transactionDetails.confirmationsTooltipText": "Подтверждение",
+	"transactionDetails.txidTooltipText": "Txid",
+	"transactionDetails.fromTooltipText": "От",
+	"transactionDetails.toTooltipText": "До",
+	"transactionDetails.explorerButton": "Блокчейн обозреватель",
+	"transactionDetails.closeButton": "Закрыть",
+	"transactionDetails.amountText": "Количество",
+	"transactionDetails.feeText": "Комиссия",
+	"transactionDetails.alertTitle": "Отправить",
+	"transactionDetails.existNameAlert": "Адресная книга пуста",
+	"transactionDetails.confirmAlertButton": "OK",
+	"transactionDetails.myWalletText": "Мой кошелек",
+
+	// Confirmation screen
+	"confirmation.title": "Подтверждение оплаты",
+	"confirmation.subtitle": "Подтвердите снятие монеты из кошелька",
+	"confirmation.balanceTooltipText": "Баланс",
+	"confirmation.amountTooltipText": "Количество",
+	"confirmation.addressTooltipText": "Адрес",
+	"confirmation.feeTooltipText": "Комиссия",
+	"confirmation.confirmButton": "Подтвердить",
+	"confirmation.cancelButton": "Отменить",
+
+	// Wallet screen
+	"wallet.title": "Кошелек",
+	"wallet.empty": "История кошелька пустая. Получите свои первые монеты в",
+	"wallet.emptyReceiveTab": "Вкладка Получить",
+	"wallet.networkStatusTitle": "Статус сети",
+
+	// Settings screen
+	"settings.title": "Настройки",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "Очистить кэш транзакций",
+	"settings.clearTxCacheTooltipText": "Удалить историю транзакций и обновить их",
+	"settings.clearAddressBook": "Очистить адресную книгу",
+	"settings.clearAddressBookTooltipText": "Удалить все добавленные адреса в адресной книге",
+	"settings.copyRecoveryPhrase": "Скопировать фразу восстановления",
+	"settings.copyRecoveryPhraseTooltipText": "Скопируйте 12 seed слов, которые вы видели при создании кошелька",
+	"settings.changePassword": "Изменить пароль",
+	"settings.changeLanguage": "Изменить язык",
+	"settings.importWIF": "Изменить WIF ключ",
+	"settings.walletList": "К списку кошельков",
+	"settings.removeWallet": "Удалить кошелек",
+	"settings.removeWalletTooltipText": "Полностью удалить кошелек со списка",
+	"settings.clearTxAlert": "Кэш транзакций успешно очищен!",
+	"settings.clearAddressBookAlert": "Адресная книга успешно очищенная!",
+	"settings.copySeedAlert": "Фраза восстановления успешно скопирована!",
+	"settings.removeWalletAlert": "Скопируйте и сохраните seed фразу. В случае невыполнения, вы потеряете кошелек навсегда. Вы хотите удалить кошелек?",
+	"settings.doNotRemoveWalletButton": "Нет",
+	"settings.removeWalletButton": "Да",
+
+	// Language list screen
+	"languageList.title": "Языки",
+	"languageList.doneButton": "Выполнено",
+}
