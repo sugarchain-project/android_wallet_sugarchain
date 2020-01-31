@@ -88,7 +88,8 @@
 	"password.useBioButton": "Yes",
 
 	// Receive screen
-	"receive.title": "Wallet information",
+	"receive.title": "Receive",
+	"receive.infoSubtitle": "Wallet information",
 	"receive.copyButton": "Copy",
 	"receive.newButton": "New",
 	"receive.importButton": "Import",
