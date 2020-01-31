@@ -17,7 +17,7 @@
 	"addAddress.incorrectNameAlert": "Неправильное название!",
 	"addAddress.incorrectAddressAlert": "Неправильный адрес!",
 	"addAddress.confirmAlertButton": "OK",
-	"addAddress.nameTooltipText": "Минимум 3 символы",
+	"addAddress.nameTooltipText": "Минимум 3 символа",
 	"addAddress.addressTooltipText": "Должна быть Sugarchain адрес",
 	"addAddress.nameInput": "Название",
 	"addAddress.addressInput": "Адрес",
@@ -36,7 +36,7 @@
 	"createWallet.nextButton": "Далее",
 	"createWallet.copyAlert": "Seed фраза успешно скопирована!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять кошелек. Вы хотите создать кошелек?",
+	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять свои средства. Вы хотите создать кошелек?",
 	"createWallet.doNotCreateWalletButton": "Нет",
 	"createWallet.createWalletButton": "Да",
 
@@ -60,10 +60,10 @@
 	"importWallet.invalidSeedAlert": "Некорректная фраза восстановления. Попробуйте еще раз!",
 	"importWallet.walletTitle": "Название",
 	"importWallet.walletTitleExampleInput": "Введите название кошелька",
-	"importWallet.invalidTitle": "Некорректное название. Слишком короткая. Попробуйте еще раз!",
-	"importWallet.notUniqueTitle": "Название кошелька уже есть в списке. Попробуйте использовать другое, чтобы избежать ошибок",
+	"importWallet.invalidTitle": "Название слишком короткое. Попробуйте еще раз!",
+	"importWallet.notUniqueTitle": "Уже существует кошелёк с таким нзванием. Попробуйте использовать другое название кошелька",
 	"importWallet.confirmAlertButton": "OK",
-	"importWallet.walletImportAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять кошелек. Вы хотите импортировать кошелек?",
+	"importWallet.walletImportAlert": "Вы скопировали и сохранили фразу восстановления? Если нет, то в будущем вы можете потерять кошелек. Вы хотите импортировать кошелек?",
 	"importWallet.doNotImportWalletButton": "Нет",
 	"importWallet.importWalletButton": "Да",
 
@@ -119,7 +119,7 @@
 	"send.errorAlert": "Ошибка отправки транзакции!",
 	"send.confirmAlertButton": "ОК",
 	"send.dismissScanModalButton": "Закрыть QR-сканер",
-	"send.qrcodeButton": "QR-code",
+	"send.qrcodeButton": "QR-код",
 	"send.addressBookButton": "Адресная книга",
 	"send.clearButton": "Очистить",
 
@@ -143,7 +143,7 @@
 	"transactionDetails.txidTooltipText": "Txid",
 	"transactionDetails.fromTooltipText": "От",
 	"transactionDetails.toTooltipText": "До",
-	"transactionDetails.explorerButton": "Блокчейн explorer",
+	"transactionDetails.explorerButton": "Блокчейн обозреватель",
 	"transactionDetails.closeButton": "Закрыть",
 	"transactionDetails.amountText": "Количество",
 	"transactionDetails.feeText": "Комиссия",
@@ -193,5 +193,5 @@
 
 	// Language list screen
 	"languageList.title": "Языки",
-	"languageList.doneButton": "Сделано",
+	"languageList.doneButton": "Выполнено",
 }
