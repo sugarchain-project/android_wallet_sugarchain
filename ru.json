@@ -17,7 +17,7 @@
 	"addAddress.incorrectNameAlert": "Неправильное название!",
 	"addAddress.incorrectAddressAlert": "Неправильный адрес!",
 	"addAddress.confirmAlertButton": "OK",
-	"addAddress.nameTooltipText": "Минимум 3 символа",
+	"addAddress.nameTooltipText": "Минимум 3 символы",
 	"addAddress.addressTooltipText": "Должна быть Sugarchain адрес",
 	"addAddress.nameInput": "Название",
 	"addAddress.addressInput": "Адрес",
@@ -36,13 +36,13 @@
 	"createWallet.nextButton": "Далее",
 	"createWallet.copyAlert": "Seed фраза успешно скопирована!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять свои средства. Вы хотите создать кошелек?",
+	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять кошелек. Вы хотите создать кошелек?",
 	"createWallet.doNotCreateWalletButton": "Нет",
 	"createWallet.createWalletButton": "Да",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "SugarWallet",
-	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
+	"firstWallet.firstLineTitle": "SugarWallet", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "Чтобы начать использовать приложение, нажмите на одну из кнопок ниже",
 	"firstWallet.createButton": "Создать новый кошелек",
 	"firstWallet.importButton": "Импортировать кошелек",
@@ -60,10 +60,10 @@
 	"importWallet.invalidSeedAlert": "Некорректная фраза восстановления. Попробуйте еще раз!",
 	"importWallet.walletTitle": "Название",
 	"importWallet.walletTitleExampleInput": "Введите название кошелька",
-	"importWallet.invalidTitle": "Название слишком короткое. Попробуйте еще раз!",
-	"importWallet.notUniqueTitle": "Уже существует кошелёк с таким нзванием. Попробуйте использовать другое название кошелька",
+	"importWallet.invalidTitle": "Некорректное название. Слишком короткая. Попробуйте еще раз!",
+	"importWallet.notUniqueTitle": "Название кошелька уже есть в списке. Попробуйте использовать другое, чтобы избежать ошибок",
 	"importWallet.confirmAlertButton": "OK",
-	"importWallet.walletImportAlert": "Вы скопировали и сохранили фразу восстановления? Если нет, то в будущем вы можете потерять кошелек. Вы хотите импортировать кошелек?",
+	"importWallet.walletImportAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять кошелек. Вы хотите импортировать кошелек?",
 	"importWallet.doNotImportWalletButton": "Нет",
 	"importWallet.importWalletButton": "Да",
 
@@ -88,7 +88,8 @@
 	"password.useBioButton": "Да",
 
 	// Receive screen
-	"receive.title": "Информация о кошельке",
+	"receive.title": "Получить",
+	"receive.infoSubtitle": "Информация о кошельке",
 	"receive.copyButton": "Копировать",
 	"receive.newButton": "Новая",
 	"receive.importButton": "Импорт",
@@ -119,7 +120,7 @@
 	"send.errorAlert": "Ошибка отправки транзакции!",
 	"send.confirmAlertButton": "ОК",
 	"send.dismissScanModalButton": "Закрыть QR-сканер",
-	"send.qrcodeButton": "QR-код",
+	"send.qrcodeButton": "QR-code",
 	"send.addressBookButton": "Адресная книга",
 	"send.clearButton": "Очистить",
 
@@ -143,7 +144,7 @@
 	"transactionDetails.txidTooltipText": "Txid",
 	"transactionDetails.fromTooltipText": "От",
 	"transactionDetails.toTooltipText": "До",
-	"transactionDetails.explorerButton": "Блокчейн обозреватель",
+	"transactionDetails.explorerButton": "Блокчейн explorer",
 	"transactionDetails.closeButton": "Закрыть",
 	"transactionDetails.amountText": "Количество",
 	"transactionDetails.feeText": "Комиссия",
@@ -164,9 +165,9 @@
 
 	// Wallet screen
 	"wallet.title": "Кошелек",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "История кошелька пустая. Получите свои первые монеты в",
 	"wallet.emptyReceiveTab": "Вкладка Получить",
-	"wallet.settingsButton": "Настройки",
 	"wallet.networkStatusTitle": "Статус сети",
 
 	// Settings screen
@@ -193,5 +194,5 @@
 
 	// Language list screen
 	"languageList.title": "Языки",
-	"languageList.doneButton": "Выполнено",
+	"languageList.doneButton": "Сделано",
 }
