@@ -6,18 +6,18 @@
 	"addressBook.nameInput": "名称",
 	"addressBook.addressInput": "地址",
 	"addressBook.addAddressButton": "添加地址",
-	"addressBook.empty": "地址簿为空.",
+	"addressBook.empty": "地址簿是空的.",
 
 	// Adding an address screen
 	"addAddress.title": "添加一个地址",
 	"addAddress.subtitle": "将地址添加至地址簿",
-	"addAddress.existNameAlert": "相同名称的地址已存在，请再试一次",
+	"addAddress.existNameAlert": "相同名称的地址已存在，请再试一次!",
 	"addAddress.existAddressAlert": "此地址已存在于地址簿中，请再试一次!",
 	"addAddress.successAlert": "成功!",
 	"addAddress.incorrectNameAlert": "不正确的名称!",
 	"addAddress.incorrectAddressAlert": "无效的地址!",
 	"addAddress.confirmAlertButton": "确定",
-	"addAddress.nameTooltipText": "不得少于三个字符",
+	"addAddress.nameTooltipText": "不得少于3个字符",
 	"addAddress.addressTooltipText": "请使用糖链地址",
 	"addAddress.nameInput": "名称",
 	"addAddress.addressInput": "地址",
@@ -26,7 +26,7 @@
 
 	// Address info screen
 	"addressInfo.title": "地址信息",
-	"addAddress.subtitle": "获取所有与地址有关的信息",
+	"addressInfo.subtitle": "获取所有与地址有关的信息",
 
 	// Create wallet screen
 	"createWallet.title": "创建钱包",
@@ -35,13 +35,16 @@
 	"createWallet.tooltipText": "请按照顺序在纸上写下这些单词或复制保存！不要与任何人分享您的恢复短语。",
 	"createWallet.nextButton": "下一步",
 	"createWallet.copyAlert": "种子短语已成功复制!",
-	"createWallet.confirmAlertButton": "好的",
+	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "你是否复制并保存了种子短语？如果没有，你将来可能会丢失钱包。你想创建钱包吗?",
+	"createWallet.doNotCreateWalletButton": "否",
+	"createWallet.createWalletButton": "是",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "糖链手机钱包",
-	"firstWallet.moto":"每CPU一票, 全球最快的PoW区块链",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "要开始使用本应用，请点击下面的按钮",
-	"firstWallet.createButton": "创建新钱包",
+	"firstWallet.createButton": "创建新的钱包",
 	"firstWallet.importButton": "导入钱包",
 
 	// Generate wallet screen
@@ -58,22 +61,26 @@
 	"importWallet.walletTitle": "标题",
 	"importWallet.walletTitleExampleInput": "输入钱包标题",
 	"importWallet.invalidTitle": "无效的标题. 实在太短了. 请再多输入一些字符!",
+	"importWallet.notUniqueTitle": "钱包标题已在列表中。尝试使用其它标题以避免重复。",
 	"importWallet.confirmAlertButton": "好的",
+	"importWallet.walletImportAlert": "你是否复制并保存了种子短语？如果没有，你将来可能会丢失钱包。你想导入钱包吗?",
+	"importWallet.doNotImportWalletButton": "否",
+	"importWallet.importWalletButton": "是",
 
 	// Password screen
 	"password.title": "密码",
 	"password.enterPINTitle": "输入密码",
-	"password.enterNewPINTitle": "输入一个新密码",
-	"password.repeatNewPINTitle": "再次输入新密码",
+	"password.enterNewPINTitle": "输入新密码",
+	"password.repeatNewPINTitle": "重复新密码",
 	"password.setPassword": "设置密码",
-	"password.confirmPassword": "密码确认",
+	"password.confirmPassword": "确认密码",
 	"password.enterPassword": "输入密码",
 	"password.cancelButton": "取消",
 	"password.incorrectPINAlert": "密码不正确，请确认后再输入!",
 	"password.confirmAlertButton": "确定",
 	"password.biomentricTooltipText": "打开你的钱包",
 	"password.android.biomentricTitle": "需要身份验证",
-	"password.android.biomentricTooltipText": "触碰传感器",
+	"password.android.biomentricTooltipText": "触碰指纹传感器",
 	"password.android.biomentricError": "失败",
 	"password.doNotMatchAlert": "两次密码输入不匹配，请重新输入!",
 	"password.useBioAlert": "你想启用指纹验证吗?",
@@ -82,45 +89,44 @@
 
 	// Receive screen
 	"receive.title": "接收",
+	"receive.infoSubtitle": "钱包信息",
 	"receive.copyButton": "复制",
 	"receive.newButton": "新建",
 	"receive.importButton": "导入",
-	"receive.copyAlert": "地址已被成功复制!",
-	"receive.confirmAlertButton": "好的",
+	"receive.copyAlert": "地址已成功复制!",
+	"receive.confirmAlertButton": "确定",
 
 	// Import key screen
 	"importKey.title": "导入一个WIF密钥",
 	"importKey.subtitle": "添加地址与私钥到钱包中",
 	"importKey.keyInput": "WIF密钥",
-	"importKey.keyTooltipText": "必须为有效的密钥格式",
+	"importKey.keyTooltipText": "必须为有效的密角",
 	"importKey.addButton": "添加",
 	"importKey.cancelButton": "取消",
 	"importKey.successAlert": "成功!",
-	"importKey.confirmAlertButton": "好的",
+	"importKey.confirmAlertButton": "确定",
 	"importKey.importErrorAlert": "不正确的WIF密钥. 请重试!",
 
 	// Send screen
 	"send.title": "发送",
 	"send.transactionSubtitle": "交易明细",
-	"send.fromText": "来此",
+	"send.fromText": "来自",
 	"send.toText": "到",
 	"send.feeText": "手续费",
 	"send.amountText": "数量",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "Timelock",
-	"send.timelockInput": "点击选择日期 (可选)",
 	"send.confirmButton": "确认",
 	"send.successAlert": "成功!",
 	"send.errorAlert": "交易发送时产生错误!",
 	"send.confirmAlertButton": "确定",
 	"send.dismissScanModalButton": "关闭QRCode扫描器",
-	"send.qrcodeButton": "QRCode",
+	"send.qrcodeButton": "QR-code",
 	"send.addressBookButton": "地址簿",
 	"send.clearButton": "清除",
 
 	// Wallet list screen
 	"walletList.title": "钱包列表",
-	"walletList.empty": "钱包列表为空",
+	"walletList.empty": "钱包列表是空的",
 	"walletList.addButton": "添加",
 	"walletList.cancelButton": "取消",
 	"walletList.notMigrated": "钱包尚未迁移",
@@ -131,7 +137,7 @@
 
 	// Transaction details screen
 	"transactionDetails.title": "交易明细",
-	"transactionDetails.sendText": "发送",
+	"transactionDetails.sendText": "已发送",
 	"transactionDetails.receivedText": "已接收",
 	"transactionDetails.dateTooltipText": "日期",
 	"transactionDetails.confirmationsTooltipText": "确认数",
@@ -140,11 +146,10 @@
 	"transactionDetails.toTooltipText": "到",
 	"transactionDetails.explorerButton": "区块浏览器",
 	"transactionDetails.closeButton": "关闭",
-	"transactionDetails.lockupTooltipText": "锁定",
 	"transactionDetails.amountText": "数量",
 	"transactionDetails.feeText": "手续费",
 	"transactionDetails.alertTitle": "发送",
-	"transactionDetails.existNameAlert": "地址簿还没有任何内容",
+	"transactionDetails.existNameAlert": "地址簿是空的",
 	"transactionDetails.confirmAlertButton": "确定",
 	"transactionDetails.myWalletText": "我的钱包",
 
@@ -155,26 +160,19 @@
 	"confirmation.amountTooltipText": "数量",
 	"confirmation.addressTooltipText": "地址",
 	"confirmation.feeTooltipText": "手续费",
-	"confirmation.timelockTooltipText": "时间锁",
 	"confirmation.confirmButton": "确认",
 	"confirmation.cancelButton": "取消",
 
 	// Wallet screen
 	"wallet.title": "钱包",
-	"wallet.coinTitle": "Sugarchain",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "钱包历史记录为空，尝试先交易一次吧",
 	"wallet.emptyReceiveTab": "接收选项卡",
-	"wallet.balanceTitle": "可用余额",
-	"wallet.lockedTitle": "锁定",
-	"wallet.lockedBalanceTitle": "锁定中的余额",
 	"wallet.networkStatusTitle": "网络状态",
-	"wallet.settingsButton": "设置",
-	"wallet.mempool": "未确认的交易",
 
 	// Settings screen
 	"settings.title": "设置",
-	"settings.closeButton": "关闭",
-	"settings.confirmAlertButton": "好的",
+	"settings.confirmAlertButton": "确定",
 	"settings.clearTxCache": "清除交易缓存",
 	"settings.clearTxCacheTooltipText": "删除本地交易列表并重新加载",
 	"settings.clearAddressBook": "清除地址簿",
@@ -190,11 +188,11 @@
 	"settings.clearTxAlert": "移除地址簿中所有地址!",
 	"settings.clearAddressBookAlert": "地址簿已全部清空!",
 	"settings.copySeedAlert": "种子短语已成功复制!",
-	"settings.removeWalletAlert": "复制并保存种子短语。否则你将永远失去钱包。您确认要删除钱包吗？",
+	"settings.removeWalletAlert": "复制并保存种子短语。否则你将永远失去钱包。您确认要删除钱包吗?",
 	"settings.doNotRemoveWalletButton": "否",
 	"settings.removeWalletButton": "是",
 
 	// Language list screen
 	"languageList.title": "语言",
-	"languageList.doneButton": "已完成",
+	"languageList.doneButton": "完成",
 }
