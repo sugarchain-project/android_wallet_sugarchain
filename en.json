@@ -100,7 +100,7 @@
 	"importKey.title": "Importing a WIF key",
 	"importKey.subtitle": "Add the address and the private key to the wallet addresses",
 	"importKey.keyInput": "WIF key",
-	"importKey.keyTooltipText": "Must be valid key",
+	"importKey.keyTooltipText": "Must be a valid key",
 	"importKey.addButton": "Add",
 	"importKey.cancelButton": "Cancel",
 	"importKey.successAlert": "Success!",
@@ -155,7 +155,7 @@
 
 	// Confirmation screen
 	"confirmation.title": "Payment confirmation",
-	"confirmation.subtitle": "Confirm coin withdrawal from wallet",
+	"confirmation.subtitle": "Confirm withdrawal from wallet",
 	"confirmation.balanceTooltipText": "Balance",
 	"confirmation.amountTooltipText": "Amount",
 	"confirmation.addressTooltipText": "Address",
