@@ -1,0 +1,198 @@
+{
+	// Address book screen
+	"addressBook.title": "دفتر العناوين",
+	"addressBook.sendButton": "ارسال",
+	"addressBook.removeButton": "ازالة",
+	"addressBook.nameInput": "الاسم",
+	"addressBook.addressInput": "العنوان",
+	"addressBook.addAddressButton": "اضافة عنوان",
+	"addressBook.empty": "العنوان فارغ",
+
+	// Adding an address screen
+	"addAddress.title": "اضافة عنوان",
+	"addAddress.subtitle": "اضافة العنوان الى دفتر العناوين",
+	"addAddress.existNameAlert": "العنوان مع الاسم متواجد , من فضلك جرب مره اخره",
+	"addAddress.existAddressAlert": "العنوان متواجد , من فضلك جرب مره اخرى",
+	"addAddress.successAlert": "! نجاح",
+	"addAddress.incorrectNameAlert": "الاسم غير صالح",
+	"addAddress.incorrectAddressAlert": "العنوان غير صالح",
+	"addAddress.confirmAlertButton": "موافق",
+	"addAddress.nameTooltipText": "3 أحرف على الأقل ",
+	"addAddress.addressTooltipText": "يجب أن يكون عنوان sugarchain",
+	"addAddress.nameInput": "الاسم",
+	"addAddress.addressInput": "العنوان",
+	"addAddress.addButton": "اضافة",
+	"addAddress.cancelButton": "الغاء",
+
+	// Address info screen
+	"addressInfo.title": "معلومات العنوان",
+	"addressInfo.subtitle": "جلب جميع المعلومات المتعلقة بالعنوان",
+
+	// Create wallet screen
+	"createWallet.title": "انشاء محفظة",
+	"createWallet.seedSubtitle": "عبارة البذور الخاصة بك",
+	"createWallet.copyButton": "نسخ",
+	"createWallet.tooltipText": "اكتب هذه الكلمات بنفس التسلسل لتحفظها بمكان امن ! لاتقوم بمشاركه عباره الأستعاده مع اي احد",
+	"createWallet.nextButton": "التالي",
+	"createWallet.copyAlert": "تم نسخ عبارة البذور بنجاح",
+	"createWallet.confirmAlertButton": "موافق",
+	"createWallet.walletCreateAlert": "هل قمت بنسخ وحفظ عبارة البذور الخاصة بك ? يجب القيام بذلك والا سوف تفقد المحفظة بالمستقبل . هل ترغب بانشاء محفظة?",
+	"createWallet.doNotCreateWalletButton": "لا",
+	"createWallet.createWalletButton": "نعم",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
+	"firstWallet.tooltipText": "لتبدأ باستخدام التطبيق اضغط على الازرار بالأسفل",
+	"firstWallet.createButton": "انشاء محفظة جديدة",
+	"firstWallet.importButton": "استيراد محفظة",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "توليد محفظة",
+	"generateWallet.tooltipText": "سوف تأخذ وقت قصير من فضلك كن صبورا",
+
+	// Import wallet screen
+	"importWallet.title": "استيراد محفظة",
+	"importWallet.seedSubtitle": "ادخل عبارة البذور الخاصة بك",
+	"importWallet.seedInput": "ابدا كتابة عباره الأستعادة",
+	"importWallet.tooltipText": "12 كلمه مفصولين بواسطه مسافة مفردة",
+	"importWallet.nextButton": "التالي",
+	"importWallet.invalidSeedAlert": "عبارة البور غير صالحة من فضلك حاول مرة اخرى",
+	"importWallet.walletTitle": "العنوان",
+	"importWallet.walletTitleExampleInput": "أدخل عنوان المحفظة",
+	"importWallet.invalidTitle": "العنوان غير صالح . القيمه المدخلة قصيره جدا. من فضلك حاول مرة اخرى ",
+	"importWallet.notUniqueTitle": "عنوان المحفظة موجود مسبقا بالقائمه. من فضلك جرب عنوان اخر لتفادي الأخطاء",
+	"importWallet.confirmAlertButton": "موافق",
+	"importWallet.walletImportAlert": "هل قمت بنخس وحفظ كلمات البذور الخاصة بك ? اذا لم تقم , سو ف تخسر معلومات المحفظة في المستقبل . هل تريد استيراد المحفظة ?",
+	"importWallet.doNotImportWalletButton": "لا",
+	"importWallet.importWalletButton": "نعم",
+
+	// Password screen
+	"password.title": "كلمة المرور",
+	"password.enterPINTitle": "ادخل كلمه المرور",
+	"password.enterNewPINTitle": "ادخل كلمة مرور جديدة",
+	"password.repeatNewPINTitle": "اعادة كلمه المرور",
+	"password.setPassword": "تعيين كلمه المرور",
+	"password.confirmPassword": "تأكيد كلمة المرور",
+	"password.enterPassword": "أدحل كلمة المرور",
+	"password.cancelButton": "الغاء",
+	"password.incorrectPINAlert": "كلمة المرور غير صالحة . من فضلك حاول لاحقا !",
+	"password.confirmAlertButton": "موافق",
+	"password.biomentricTooltipText": "للقيام بفتح المحفظة الخاصة بك",
+	"password.android.biomentricTitle": "عملية المصادة مطلوبة",
+	"password.android.biomentricTooltipText": "المس الحساس",
+	"password.android.biomentricError": "فشل",
+	"password.doNotMatchAlert": "كلمة المرور التي أدخلتها غير مطابقة من فضلك حاول مره اخرى ",
+	"password.useBioAlert": "هل تريد أن تستخدم البصمة ؟",
+	"password.doNotUseBioButton": "لا",
+	"password.useBioButton": "نعم",
+
+	// Receive screen
+	"receive.title": "استقبال",
+	"receive.infoSubtitle": "معلومات المحفظة",
+	"receive.copyButton": "نسخ",
+	"receive.newButton": "جديد",
+	"receive.importButton": "استيراد",
+	"receive.copyAlert": "تم نسخ العنوان بنجاح!",
+	"receive.confirmAlertButton": "موافق",
+
+	// Import key screen
+	"importKey.title": "استيراد مفتاح WIF ",
+	"importKey.subtitle": "اضافة  العنوان والمفتاح الخاص  بك إلى عناوين المحفظة",
+	"importKey.keyInput": "WIF مفتاح",
+	"importKey.keyTooltipText": "يجب أن يكون مفتاح صالح",
+	"importKey.addButton": "اضافة ",
+	"importKey.cancelButton": "الغاء",
+	"importKey.successAlert": "نجاح",
+	"importKey.confirmAlertButton": "موافق",
+	"importKey.importErrorAlert": "مفتاح WIF  غير صحيح حاول مره اخرى",
+
+	// Send screen
+	"send.title": "ارسل",
+	"send.transactionSubtitle": "تفاصيل العملية",
+	"send.fromText": "من",
+	"send.toText": "الى",
+	"send.feeText": "الرسوم الضريبية",
+	"send.amountText": "الكمية",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.confirmButton": "تأكيد",
+	"send.successAlert": "نجاح",
+	"send.errorAlert": "خطأ في إرسال المعاملة ",
+	"send.confirmAlertButton": "موافق",
+	"send.dismissScanModalButton": "إغلاق QR الماسح الضوئي",
+	"send.qrcodeButton": "QR-code",
+	"send.addressBookButton": "دفتر العناوين ",
+	"send.clearButton": "مسح",
+
+	// Wallet list screen
+	"walletList.title": "قائمة المحفظة",
+	"walletList.empty": "قائمة المحفظة فارغة",
+	"walletList.addButton": "اضافة",
+	"walletList.cancelButton": "الغاء",
+	"walletList.notMigrated": "لم يتم نقل المحفظة بعد",
+
+	// Address list screen
+	"addressList.title": "قائمة العناوين",
+	"addressList.cancelButton": "الغاء",
+
+	// Transaction details screen
+	"transactionDetails.title": "تفاصيل العملية",
+	"transactionDetails.sendText": "لقد قمت بالأرسال",
+	"transactionDetails.receivedText": "تم الأستلام",
+	"transactionDetails.dateTooltipText": "التاريخ",
+	"transactionDetails.confirmationsTooltipText": "تم التأكيد",
+	"transactionDetails.txidTooltipText": "TXID",
+	"transactionDetails.fromTooltipText": "من",
+	"transactionDetails.toTooltipText": "الى",
+	"transactionDetails.explorerButton": "Blockchain مستكشف",
+	"transactionDetails.closeButton": "الغاء",
+	"transactionDetails.amountText": "الكمية",
+	"transactionDetails.feeText": "رسوم",
+	"transactionDetails.alertTitle": "أرسل",
+	"transactionDetails.existNameAlert": "دفتر العناوين فارغ",
+	"transactionDetails.confirmAlertButton": "موافق",
+	"transactionDetails.myWalletText": "محفظتي",
+
+	// Confirmation screen
+	"confirmation.title": "تأكيد الدفعة",
+	"confirmation.subtitle": "تأكيد عملية سحب العملة من المحفظة",
+	"confirmation.balanceTooltipText": "الميزانية",
+	"confirmation.amountTooltipText": "الكمية",
+	"confirmation.addressTooltipText": "العنوان",
+	"confirmation.feeTooltipText": "الرسوم الضريبية",
+	"confirmation.confirmButton": "تأكيد",
+	"confirmation.cancelButton": "الغاء",
+
+	// Wallet screen
+	"wallet.title": "المحفظة",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
+	"wallet.empty": "سجل المحفظة فارغ قم بأدخال اول عملة معدنية ",
+	"wallet.emptyReceiveTab": "تبويب الأستلام",
+	"wallet.networkStatusTitle": "حالة الشبكة",
+
+	// Settings screen
+	"settings.title": "اعدادت",
+	"settings.confirmAlertButton": "موافق",
+	"settings.clearTxCache": "مسح ذاكره العمليات",
+	"settings.clearTxCacheTooltipText": "أزل قائمة العمليات المحلية وأعد تحميلها",
+	"settings.clearAddressBook": "مسح دفتر العناوين",
+	"settings.clearAddressBookTooltipText": "إزالة جميع العناوين المضافة من دفتر العناوين",
+	"settings.copyRecoveryPhrase": "نسخ بذور الكلمات الخاصة بك",
+	"settings.copyRecoveryPhraseTooltipText": "انسخ 12 كلمة من الكلمات التي تم عرضها عند انشاء المحفظة ",
+	"settings.changePassword": "تغير كلمة المرور",
+	"settings.changeLanguage": "تغيير اللغة",
+	"settings.importWIF": "استيراد مفتاح WIF",
+	"settings.walletList": "الى قائمه المحفظة",
+	"settings.removeWallet": "ازالة قائمه المحفظة",
+	"settings.removeWalletTooltipText": "ازالة المحفظة من التطبيق بشكل كامل",
+	"settings.clearTxAlert": "ازالة جميع العناوين المضافة من دفتر العناوين ",
+	"settings.clearAddressBookAlert": "تم مسح دفتر العناوين بنجاح ",
+	"settings.copySeedAlert": "تم نسخ كلمات البذور الخاصة بك بنجاح ",
+	"settings.removeWalletAlert": "نسخ وحفظ عبارة البذور الخاصة بك . اذا لم تقم , سوف تخسر المحفظة للابد. هل تريد ازالة المحفظة ?",
+	"settings.doNotRemoveWalletButton": "لا",
+	"settings.removeWalletButton": "نعم",
+
+	// Language list screen
+	"languageList.title": "اللغة",
+	"languageList.doneButton": "تم الانجاز",
+}
