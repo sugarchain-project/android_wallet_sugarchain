@@ -84,7 +84,7 @@
 	"password.android.biomentricTooltipText": "Sidik Jari",
 	"password.android.biomentricError": "Gagal",
 	"password.doNotMatchAlert": "Kata sandi Anda Tidak Sama, Ulangi Lagi!",
-	"password.useBioAlert": "Apakah anda ingin autentifikasi biometrik ?",
+	"password.useBioAlert": "Apakah anda ingin autentifikasi biometrik?",
 	"password.doNotUseBioButton": "Tidak",
 	"password.useBioButton": "Ya",
 
