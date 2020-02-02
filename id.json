@@ -42,8 +42,8 @@
 
 	// First wallet screen
 
-	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
-	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
+	"firstWallet.firstLineTitle": "Dompet Sugarchain",
+	"firstWallet.moto":"satu-CPU-satu-suara, blockchain PoW tercepat di dunia",
 	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
 	"firstWallet.createButton": "Membuat Dompet Baru",
 	"firstWallet.importButton": "Impor dompet",
@@ -84,12 +84,11 @@
 	"password.android.biomentricTooltipText": "Sidik Jari",
 	"password.android.biomentricError": "Gagal",
 	"password.doNotMatchAlert": "Kata sandi Anda Tidak Sama, Ulangi Lagi!",
-	"password.useBioAlert": "Apakah anda ingin autentifikasi biometrik?",
+	"password.useBioAlert": "Apakah anda ingin autentifikasi biometrik ?",
 	"password.doNotUseBioButton": "Tidak",
 	"password.useBioButton": "Ya",
 
 	// Receive screen
-	"receive.title": "Menerima",
 	"receive.copyButton": "Salin",
 	"receive.newButton": "Baru",
 	"receive.importButton": "Impor",
@@ -160,6 +159,7 @@
 	"confirmation.amountTooltipText": "Jumlah",
 	"confirmation.addressTooltipText": "Alamat",
 	"confirmation.feeTooltipText": "Biaya",
+	"confirmation.timelockTooltipText": "Tetapkan waktu",
 	"confirmation.confirmButton": "Konfirmasi",
 	"confirmation.cancelButton": "Batalkan",
 
