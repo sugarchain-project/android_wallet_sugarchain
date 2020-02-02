@@ -36,13 +36,13 @@
 	"createWallet.nextButton": "Next",
 	"createWallet.copyAlert": "Seed phrase has been successfully copied!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to import wallet?",
+	"createWallet.walletCreateAlert": "Did you copy and save seed phrase? If not, you can lose wallet in the future. Do you want to create wallet?",
 	"createWallet.doNotCreateWalletButton": "No",
 	"createWallet.createWalletButton": "Yes",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "SugarWallet",
-	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
 	"firstWallet.importButton": "Import wallet",
@@ -88,7 +88,8 @@
 	"password.useBioButton": "Yes",
 
 	// Receive screen
-	"receive.title": "Wallet information",
+	"receive.title": "Receive",
+	"receive.infoSubtitle": "Wallet information",
 	"receive.copyButton": "Copy",
 	"receive.newButton": "New",
 	"receive.importButton": "Import",
@@ -164,7 +165,7 @@
 
 	// Wallet screen
 	"wallet.title": "Wallet",
-	"wallet.coinTitle": "Sugar",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "Wallet history is empty. Get your first coins in",
 	"wallet.emptyReceiveTab": "Receive tab",
 	"wallet.networkStatusTitle": "Network status",

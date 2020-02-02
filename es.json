@@ -41,8 +41,8 @@
 	"createWallet.createWalletButton": "Sí",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Cartera de azúcar",
-	"firstWallet.moto":"un CPU-un-voto, la cadena de bloqueo de PoW más rápida del mundo",
+	// DO_NOT_TRANSLATE "firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
+	// DO_NOT_TRANSLATE "firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "Para empezar a utilizar la aplicación, toque uno de los siguientes botones",
 	"firstWallet.createButton": "Crear una nueva cartera",
 	"firstWallet.importButton": "Importación de cartera",
@@ -88,7 +88,8 @@
 	"password.useBioButton": "Sí",
 
 	// Receive screen
-	"receive.title": "Información de la cartera",
+	"receive.title": "Reciba",
+	"receive.infoSubtitle": "Información de la cartera",
 	"receive.copyButton": "Copia",
 	"receive.newButton": "Nuevo",
 	"receive.importButton": "Importación",
@@ -164,7 +165,7 @@
 
 	// Wallet screen
 	"wallet.title": "Cartera",
-	"wallet.coinTitle": "Azúcar",
+	// DO_NOT_TRANSLATE "wallet.coinTitle": "SUGAR",
 	"wallet.empty": "El historial de la cartera está vacío. Consigue tus primeras monedas",
 	"wallet.emptyReceiveTab": "Recibir tab",
 	"wallet.networkStatusTitle": "Estado de la red",

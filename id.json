@@ -89,7 +89,7 @@
 	"password.useBioButton": "Ya",
 
 	// Receive screen
-	"receive.title": "Menerima",
+	"receive.title": "Informasi Dompet",
 	"receive.copyButton": "Salin",
 	"receive.newButton": "Baru",
 	"receive.importButton": "Impor",
