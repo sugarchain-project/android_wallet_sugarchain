@@ -17,7 +17,7 @@
 	"addAddress.incorrectNameAlert": "Nama Tidak Benar!",
 	"addAddress.incorrectAddressAlert": "Alamat Tidak Benar!",
 	"addAddress.confirmAlertButton": "OK",
-	"addAddress.nameTooltipText": "Setidaknya 3K arakter",
+	"addAddress.nameTooltipText": "Setidaknya 3 Karakter",
 	"addAddress.addressTooltipText": "Harus Alamat Sugar",
 	"addAddress.nameInput": "Nama",
 	"addAddress.addressInput": "Alamat",
@@ -42,8 +42,8 @@
 
 	// First wallet screen
 
-	"firstWallet.firstLineTitle": "Dompet Sugarchain",
-	"firstWallet.moto":"satu-CPU-satu-suara, blockchain PoW tercepat di dunia",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto": "one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "Untuk mulai menggunakan aplikasi, ketuk salah satu tombol di bawah ini",
 	"firstWallet.createButton": "Membuat Dompet Baru",
 	"firstWallet.importButton": "Impor dompet",
@@ -160,7 +160,6 @@
 	"confirmation.amountTooltipText": "Jumlah",
 	"confirmation.addressTooltipText": "Alamat",
 	"confirmation.feeTooltipText": "Biaya",
-	"confirmation.timelockTooltipText": "Tetapkan waktu",
 	"confirmation.confirmButton": "Konfirmasi",
 	"confirmation.cancelButton": "Batalkan",
 
