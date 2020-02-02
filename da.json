@@ -1,0 +1,198 @@
+{
+	// Address book screen
+	"addressBook.title": "Adressebog",
+	"addressBook.sendButton": "Send",
+	"addressBook.removeButton": "Fjern",
+	"addressBook.nameInput": "Navn",
+	"addressBook.addressInput": "Adresse",
+	"addressBook.addAddressButton": "Tilføj adresse",
+	"addressBook.empty": "Adressebogen er tom.",
+
+	// Adding an address screen
+	"addAddress.title": "Tilføjer en adresse",
+	"addAddress.subtitle": "Føj adressen til adressebogen",
+	"addAddress.existNameAlert": "En adresse med dette navn findes allerede. Prøv igen!",
+	"addAddress.existAddressAlert": "En adresse findes allerede i adressebogen. Prøv igen!",
+	"addAddress.successAlert": "Succes!",
+	"addAddress.incorrectNameAlert": "Forkert navn!",
+	"addAddress.incorrectAddressAlert": "Forkert adresse!",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "Mindst 3 tegn",
+	"addAddress.addressTooltipText": "Skal være en Sugarchain adresse",
+	"addAddress.nameInput": "Navn",
+	"addAddress.addressInput": "Adresse",
+	"addAddress.addButton": "Tilføj",
+	"addAddress.cancelButton": "Afbestil",
+
+	// Address info screen
+	"addressInfo.title": "Adresseinfo",
+	"addressInfo.subtitle": "Få alt relateret til adresseinfo",
+
+	// Create wallet screen
+	"createWallet.title": "Opret tegnebog",
+	"createWallet.seedSubtitle": "Din seed sætning",
+	"createWallet.copyButton": "Kopi",
+	"createWallet.tooltipText": "Skriv disse ord ned i følgende rækkefølge eller kopier for at gemme sikkerhed! Del ikke din gendannelsesfrase med nogen.",
+	"createWallet.nextButton": "Næste",
+	"createWallet.copyAlert": "Seed sætning er blevet kopieret!",
+	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "Kopierede og gemte du seed sætning? Hvis ikke, kan du miste tegnebogen i fremtiden. Vil du oprette tegnebog?",
+	"createWallet.doNotCreateWalletButton": "NEJ",
+	"createWallet.createWalletButton": "Ja",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
+	"firstWallet.tooltipText": "For at begynde at bruge appen skal du trykke på en af knapperne nedenfor",
+	"firstWallet.createButton": "Opret ny tegnebog",
+	"firstWallet.importButton": "Importer tegnebog",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "Genererer tegnebog",
+	"generateWallet.tooltipText": "Det kan tage lidt tid, vær tålmodig.",
+
+	// Import wallet screen
+	"importWallet.title": "Importer tegnebog",
+	"importWallet.seedSubtitle": "Indtast din seed sætning",
+	"importWallet.seedInput": "Begynd med at skrive gendannelsesfrase",
+	"importWallet.tooltipText": "12 ord adskilt af enkelt mellemrum.",
+	"importWallet.nextButton": "Næste",
+	"importWallet.invalidSeedAlert": "Ugyldig seed sætning. Prøv igen!",
+	"importWallet.walletTitle": "Titel",
+	"importWallet.walletTitleExampleInput": "Input tegnebogstitel",
+	"importWallet.invalidTitle": "Ugyldig titel. For kort. Prøv igen!",
+	"importWallet.notUniqueTitle": "Tegnebog-titel findes allerede på listen. Prøv at bruge en anden til at undgå fejl.",
+	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "Kopierede og gemte du seed sætning? Hvis ikke, kan du miste tegnebogen i fremtiden. Vil du importere tegnebog?",
+	"importWallet.doNotImportWalletButton": "Nej",
+	"importWallet.importWalletButton": "Ja",
+
+	// Password screen
+	"password.title": "Adgangskode",
+	"password.enterPINTitle": "Indtast adgangskode",
+	"password.enterNewPINTitle": "Indtast ny adgangskode",
+	"password.repeatNewPINTitle": "Gentag den nye adgangskode",
+	"password.setPassword": "Indstil adgangskode",
+	"password.confirmPassword": "Bekræft adgangskode",
+	"password.enterPassword": "Indtast adgangskode",
+	"password.cancelButton": "Afbestill",
+	"password.incorrectPINAlert": "Din adgangskode er forkert. Prøv igen!",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "for at åbne din tegnebog",
+	"password.android.biomentricTitle": "Godkendelse krævet",
+	"password.android.biomentricTooltipText": "Berøringssensor",
+	"password.android.biomentricError": "Mislykkedes",
+	"password.doNotMatchAlert": "Dine adgangskoder matcher ikke. Prøv igen!",
+	"password.useBioAlert": "Vil du bruge biometrisk godkendelse?",
+	"password.doNotUseBioButton": "Nej",
+	"password.useBioButton": "Ja",
+
+	// Receive screen
+	"receive.title": "Modtag",
+	"receive.infoSubtitle": "Tegnebog information",
+	"receive.copyButton": "Kopi",
+	"receive.newButton": "Ny",
+	"receive.importButton": "Importer",
+	"receive.copyAlert": "Adressen er blevet kopieret!",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "Importer en WIF-nøgle",
+	"importKey.subtitle": "Føj adressen og den private nøgle til tegnebogets adresser",
+	"importKey.keyInput": "WIF nøgle",
+	"importKey.keyTooltipText": "Skal være en gyldig nøgle",
+	"importKey.addButton": "Tilføj",
+	"importKey.cancelButton": "Afbestil",
+	"importKey.successAlert": "Succes!",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "Forkert WIF-nøgle. Prøv igen!",
+
+	// Send screen
+	"send.title": "Send",
+	"send.transactionSubtitle": "Overførselsdetaljer",
+	"send.fromText": "Fra",
+	"send.toText": "Til",
+	"send.feeText": "Afgift",
+	"send.amountText": "Beløb",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.confirmButton": "Bekræft",
+	"send.successAlert": "Succes!",
+	"send.errorAlert": "Fejl ved afsendelse af transaktion!",
+	"send.confirmAlertButton": "OK",
+	"send.dismissScanModalButton": "Luk QR-scanner",
+	"send.qrcodeButton": "QR-kode",
+	"send.addressBookButton": "Adressebog",
+	"send.clearButton": "Fjern",
+
+	// Wallet list screen
+	"walletList.title": "Tagnebog liste",
+	"walletList.empty": "Tegnebog listen er tom",
+	"walletList.addButton": "Tilføj",
+	"walletList.cancelButton": "Afbestil",
+	"walletList.notMigrated": "Tegnebog er ikke migreret endnu",
+
+	// Address list screen
+	"addressList.title": "Adresseliste",
+	"addressList.cancelButton": "Afbestil",
+
+	// Transaction details screen
+	"transactionDetails.title": "Detaljer om transaktion",
+	"transactionDetails.sendText": "Sendt",
+	"transactionDetails.receivedText": "Modtaget",
+	"transactionDetails.dateTooltipText": "Dato",
+	"transactionDetails.confirmationsTooltipText": "bekræftelser",
+	"transactionDetails.txidTooltipText": "TXID",
+	"transactionDetails.fromTooltipText": "Fra",
+	"transactionDetails.toTooltipText": "Til",
+	"transactionDetails.explorerButton": "Blockchain explorer",
+	"transactionDetails.closeButton": "Luk",
+	"transactionDetails.amountText": "Beløb",
+	"transactionDetails.feeText": "Afgift",
+	"transactionDetails.alertTitle": "Send",
+	"transactionDetails.existNameAlert": "Adressebogen er tom",
+	"transactionDetails.confirmAlertButton": "OK",
+	"transactionDetails.myWalletText": "Min tegnebog",
+
+	// Confirmation screen
+	"confirmation.title": "Betalingsbekræftelse",
+	"confirmation.subtitle": "Bekræft udtræk fra tegnebogen",
+	"confirmation.balanceTooltipText": "Balance",
+	"confirmation.amountTooltipText": "Beløb",
+	"confirmation.addressTooltipText": "Adresse",
+	"confirmation.feeTooltipText": "Afgift",
+	"confirmation.confirmButton": "Bekræft",
+	"confirmation.cancelButton": "Afbestil",
+
+	// Wallet screen
+	"wallet.title": "Tegnebog",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
+	"wallet.empty": "Tegnebog historikken er tom. Få dine første mønter ind",
+	"wallet.emptyReceiveTab": "Modtag",
+	"wallet.networkStatusTitle": "Netværksstatus",
+
+	// Settings screen
+	"settings.title": "Indstillinger",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "Ryd transaktionscache",
+	"settings.clearTxCacheTooltipText": "Fjern lokal transaktionsliste, og indlæs den igen",
+	"settings.clearAddressBook": "Ryd adressebog",
+	"settings.clearAddressBookTooltipText": "Fjern alle tilføjede adresser fra adressebogen",
+	"settings.copyRecoveryPhrase": "Kopier seed sætning",
+	"settings.copyRecoveryPhraseTooltipText": "Kopier de 12 seed ord du så da du oprettede en tegnebog",
+	"settings.changePassword": "Skift adgangskode",
+	"settings.changeLanguage": "Skift sprog",
+	"settings.importWIF": "Importer WIF-nøgle",
+	"settings.walletList": "Til tegnebogsliste",
+	"settings.removeWallet": "Fjern tegnebog",
+	"settings.removeWalletTooltipText": "Fjern tegnebogen helt fra appen",
+	"settings.clearTxAlert": "Fjern alle tilføjede adresser fra adressebogen!",
+	"settings.clearAddressBookAlert": "Adressebogen er blevet ryddet!",
+	"settings.copySeedAlert": "Seed sætning er blevet kopieret!",
+	"settings.removeWalletAlert": "Kopier og gem seed udtryk. Hvis ikke, mister du tegnebogen for evigt. Vil du fjerne tegnebogen?",
+	"settings.doNotRemoveWalletButton": "Nej",
+	"settings.removeWalletButton": "Ja",
+
+	// Language list screen
+	"languageList.title": "Sprog",
+	"languageList.doneButton": "Færdig",
+}
