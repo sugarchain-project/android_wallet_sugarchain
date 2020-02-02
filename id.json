@@ -165,7 +165,7 @@
 
 	// Wallet screen
 	"wallet.title": "Dompet",
-	"wallet.coinTitle": "Sugar",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "Riwayat koin kosong,dapatkan coin pertama anda",
 	"wallet.emptyReceiveTab": "Tab penerimaan",
 	"wallet.networkStatusTitle": "Status Jaringan",
