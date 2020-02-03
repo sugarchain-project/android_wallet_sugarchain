@@ -9,8 +9,8 @@
 	"addressBook.empty": "Noch keine Einträge im Adressbuch.",
 
 	// Adding an address screen
-	"addAddress.title": "Eine Adresse hinzufügen",
-	"addAddress.subtitle": "Adresse hinzufügen",
+	"addAddress.title": "Neue Adresse hinzufügen",
+	"addAddress.subtitle": "Eine Adresse im Adressbuch hinzufügen",
 	"addAddress.existNameAlert": "Es existiert bereits eine Adresse mit diesem Namen. Bitte neu versuchen!",
 	"addAddress.existAddressAlert": "Diese Adresse befindet sich bereits im Adressbuch. Bitte neu versuchen!",
 	"addAddress.successAlert": "Erfolgreich!",
@@ -26,19 +26,22 @@
 
 	// Address info screen
 	"addressInfo.title": "Addressen-Info",
-	"addAddress.subtitle": "Sehen Sie sich weitere Informationen zur Adresse an",
+	"addAddress.subtitle": "Sieh Dir alle relevanten Informationen zur Adresse an",
 
 	// Create wallet screen
 	"createWallet.title": "Wallet erstellen",
-	"createWallet.seedSubtitle": "Ihre Sicherungswörter",
+	"createWallet.seedSubtitle": "Deine Sicherungswörter",
 	"createWallet.copyButton": "Kopieren",
-	"createWallet.tooltipText": "Bitte schreiben Sie zur Möglichkeit einer Wiederherstellung die folgenden Wörter in gleicher Reihenfolge auf und verwahren Sie diese anschließend an einem sicheren Ort auf. Teilen Sie Ihre Sicherungswörter mit niemandem!",
+	"createWallet.tooltipText": "Bitte schreibe die folgenden Wörter in gleicher Reihenfolge zur Möglichkeit der Wiederherstellung auf und verwahre sie anschließend an einem sicheren Ort auf. Teile Deine Sicherungswörter mit niemandem!",
 	"createWallet.nextButton": "Weiter",
 	"createWallet.copyAlert": "Sicherungswörter wurden erfolgreich kopiert!",
 	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "Sicherungswörter kopiert und gespeichert? Andernfalls könnte die Wallet im Fall der Fälle verloren sein! Möchtest Du die Wallet erstellen?",
+	"createWallet.doNotCreateWalletButton": "Nein",
+	"createWallet.createWalletButton": "Ja",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "Sugarchain Wallet",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
 	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
 	"firstWallet.tooltipText": "Zur Nutzung der App bitte auf einen der unteren Buttons tippen",
 	"firstWallet.createButton": "Neue Wallet erstellen",
@@ -46,19 +49,23 @@
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Wallet wird generiert",
-	"generateWallet.tooltipText": "Bleiben Sie geduldig - der Vorgang kann einen Moment in Anspruch nehmen.",
+	"generateWallet.tooltipText": "Bleibe geduldig - der Vorgang kann einen Moment in Anspruch nehmen.",
 
 	// Import wallet screen
 	"importWallet.title": "Wallet importieren",
-	"importWallet.seedSubtitle": "Bitte geben Sie Ihre Sicherungswörter ein",
-	"importWallet.seedInput": "Beginnen Sie hier mit der Eingabe Ihrer Sicherungswörter",
+	"importWallet.seedSubtitle": "Bitte gib Deine Sicherungswörter ein",
+	"importWallet.seedInput": "Beginne hier mit der Eingabe Ihrer Sicherungswörter",
 	"importWallet.tooltipText": "12 Wörter, durch Leerzeichen getrennt.",
 	"importWallet.nextButton": "Weiter",
 	"importWallet.invalidSeedAlert": "Sicherungswörter stimmen nicht. Bitte erneut versuchen!",
 	"importWallet.walletTitle": "Bezeichnung",
-	"importWallet.walletTitleExampleInput": "Geben Sie hier eine Bezeichnung für die Wallet ein",
+	"importWallet.walletTitleExampleInput": "Gib hier eine Bezeichnung für die Wallet ein",
 	"importWallet.invalidTitle": "Bezeichnung muss mehr Zeichen aufweisen Bitte erneut versuchen!",
+	"importWallet.notUniqueTitle": "Eine Wallet mit dieser Bezeichnung existiert bereits. Wähle eine andere Bezeichnung.",
 	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "Sicherungswörter kopiert und gespeichert? Andernfalls könnte die Wallet im Fall der Fälle verloren sein! Möchtest Du die Wallet importieren?",
+	"importWallet.doNotImportWalletButton": "Nein",
+	"importWallet.importWalletButton": "Ja",
 
 	// Password screen
 	"password.title": "Passwort",
@@ -71,17 +78,18 @@
 	"password.cancelButton": "Abbruch",
 	"password.incorrectPINAlert": "Falsches Passwort. Bitte erneut versuchen!",
 	"password.confirmAlertButton": "OK",
-	"password.biomentricTooltipText": "Öffnen Sie ihre Wallet",
-	"password.android.biomentricTitle": "Authentifikation erforderlich!",
+	"password.biomentricTooltipText": "Zum öffnen Deiner Wallet",
+	"password.android.biomentricTitle": "Authentifikation erforderlich",
 	"password.android.biomentricTooltipText": "Berührungssensor",
-	"password.android.biomentricError": "Fehler bei der Erkennen",
+	"password.android.biomentricError": "Fehler bei der Erkennung",
 	"password.doNotMatchAlert": "Passwörter stimmen nicht überein. Bitte erneut versuchen!",
-	"password.useBioAlert": "Wünschen Sie eine biometrische Authentifikation?",
+	"password.useBioAlert": "Wünschst Du eine biometrische Authentifikation?",
 	"password.doNotUseBioButton": "Nein",
 	"password.useBioButton": "Ja",
 
 	// Receive screen
 	"receive.title": "Empfangen",
+	"receive.infoSubtitle": "Wallet-Informationen",
 	"receive.copyButton": "Kopieren",
 	"receive.newButton": "Neu",
 	"receive.importButton": "Importieren",
@@ -89,7 +97,7 @@
 	"receive.confirmAlertButton": "OK",
 
 	// Import key screen
-	"importKey.title": "Einen WIF-Schlüssel hinzufügen",
+	"importKey.title": "Einen WIF-Schlüssel importieren",
 	"importKey.subtitle": "Eine Adresse samt privatem Schlüssel der Wallet hinzufügen",
 	"importKey.keyInput": "WIF-Schlüssel",
 	"importKey.keyTooltipText": "Schlüssel muss gültig sein",
@@ -107,8 +115,6 @@
 	"send.feeText": "Gebühr",
 	"send.amountText": "Betrag",
 	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
-	"send.timelockText": "Sperrzeit",
-	"send.timelockInput": "Zur Auswahl eines Datums hier klicken (optional)",
 	"send.confirmButton": "Bestätige",
 	"send.successAlert": "Erfolgreich!",
 	"send.errorAlert": "Fehler beim Senden der Zahlung",
@@ -119,8 +125,8 @@
 	"send.clearButton": "Felder löschen",
 
 	// Wallet list screen
-	"walletList.title": "Ihre Wallets",
-	"walletList.empty": "Noch keine Wallets erstellt",
+	"walletList.title": "Deine Wallets",
+	"walletList.empty": "Noch keine Wallets erstellt oder importiert",
 	"walletList.addButton": "Neue Wallet",
 	"walletList.cancelButton": "Abbrechen",
 	"walletList.notMigrated": "Wallet(s) wurden noch nicht migriert",
@@ -139,14 +145,13 @@
 	"transactionDetails.fromTooltipText": "Von",
 	"transactionDetails.toTooltipText": "An",
 	"transactionDetails.explorerButton": "Blockchain explorer",
-	"transactionDetails.closeButton": "schließen",
-	"transactionDetails.lockupTooltipText": "noch nicht freigegebener Betrag",
+	"transactionDetails.closeButton": "Schließen",
 	"transactionDetails.amountText": "Betrag",
-	"transactionDetails.feeText": "Gebühr",
+	"transactionDetails.feeText": "Transaktionsgebühr",
 	"transactionDetails.alertTitle": "Senden",
 	"transactionDetails.existNameAlert": "Addressbuch ist leer",
 	"transactionDetails.confirmAlertButton": "OK",
-	"transactionDetails.myWalletText": "Mein Wallet",
+	"transactionDetails.myWalletText": "Meine Wallet",
 
 	// Confirmation screen
 	"confirmation.title": "Zahlungsbestätigung",
@@ -155,32 +160,25 @@
 	"confirmation.amountTooltipText": "Betrag",
 	"confirmation.addressTooltipText": "Addresse",
 	"confirmation.feeTooltipText": "Transaktionsgebühr",
-	"confirmation.timelockTooltipText": "Sperrzeit",
 	"confirmation.confirmButton": "Bestätigung",
 	"confirmation.cancelButton": "Abbruch",
 
 	// Wallet screen
-	"wallet.title": "Mein Wallet",
-	"wallet.coinTitle": "Sugarchain",
-	"wallet.empty": "Ihr Wallet weist noch kein Guthaben auf. Senden Sie erste Einheiten ans Wallet",
+	"wallet.title": "Meine Wallet",
+	"wallet.coinTitle": "SUGAR",
+	"wallet.empty": "Deine Wallet weist noch kein Guthaben auf. Sende erste Coins an Deine Wallet",
 	"wallet.emptyReceiveTab": "Zahlungen empfangen",
-	"wallet.balanceTitle": "Guthaben",
-	"wallet.lockedTitle": "Gesperrt",
-	"wallet.lockedBalanceTitle": "Gesperrtes Guthaben",
 	"wallet.networkStatusTitle": "Netzwerkstatus",
-	"wallet.settingsButton": "Einstellungen",
-	"wallet.mempool": "unbestätigte Transaktionen",
 
 	// Settings screen
 	"settings.title": "Einstellungen",
-	"settings.closeButton": "Schließen",
 	"settings.confirmAlertButton": "OK",
 	"settings.clearTxCache": "Transaktions-Cache bereinigen",
 	"settings.clearTxCacheTooltipText": "Lokale Transaktionsliste entfernen und neu laden",
 	"settings.clearAddressBook": "Adressbuch löschen",
 	"settings.clearAddressBookTooltipText": "Alle Adressen aus dem Adressbuch entfernen",
 	"settings.copyRecoveryPhrase": "Sicherungswörter kopieren",
-	"settings.copyRecoveryPhraseTooltipText": "Kopieren Sie die 12 gezeigten Sicherungswörter zur Wiederherstellung des Wallets",
+	"settings.copyRecoveryPhraseTooltipText": "Kopiere die 12 gezeigten Sicherungswörter zur Wiederherstellung der Wallet(s)",
 	"settings.changePassword": "Passwort ändern",
 	"settings.changeLanguage": "Anzeigesprache ändern",
 	"settings.importWIF": "WIF-Schlüssel importieren",
@@ -189,7 +187,7 @@
 	"settings.removeWalletTooltipText": "Wallet vollständig aus App entfernen",
 	"settings.clearTxAlert": "Alle hinzugefügten Adressen aus dem Adressbuch entfernen!",
 	"settings.clearAddressBookAlert": "Adressbuch wurde erfolgreich gelöscht!",
-	"settings.copySeedAlert": "Sicherungswörter erfolgreich kopiert!",
+	"settings.copySeedAlert": "Sicherungswörter wurden erfolgreich kopiert!",
 	"settings.removeWalletAlert": "Sicherungswörter kopiert und gespeichert? Ohne Sicherungswörter geht die Wallet unwiederbringlich verloren!! Wallet tatächlich löschen?",
 	"settings.doNotRemoveWalletButton": "Nein",
 	"settings.removeWalletButton": "Ja",
