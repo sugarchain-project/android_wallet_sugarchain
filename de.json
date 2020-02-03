@@ -41,8 +41,8 @@
 	"createWallet.createWalletButton": "Ja",
 
 	// First wallet screen
-	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET",
-	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain",
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
 	"firstWallet.tooltipText": "Zur Nutzung der App bitte auf einen der unteren Buttons tippen",
 	"firstWallet.createButton": "Neue Wallet erstellen",
 	"firstWallet.importButton": "Wallet importieren",
@@ -165,7 +165,7 @@
 
 	// Wallet screen
 	"wallet.title": "Meine Wallet",
-	"wallet.coinTitle": "SUGAR",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "Deine Wallet weist noch kein Guthaben auf. Sende erste Coins an Deine Wallet",
 	"wallet.emptyReceiveTab": "Zahlungen empfangen",
 	"wallet.networkStatusTitle": "Netzwerkstatus",
