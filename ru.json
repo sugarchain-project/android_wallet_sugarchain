@@ -18,7 +18,7 @@
 	"addAddress.incorrectAddressAlert": "Неправильный адрес!",
 	"addAddress.confirmAlertButton": "OK",
 	"addAddress.nameTooltipText": "Минимум 3 символа",
-	"addAddress.addressTooltipText": "Должна быть Sugarchain адрес",
+	"addAddress.addressTooltipText": "Используйте только Sugarchain адрес",
 	"addAddress.nameInput": "Название",
 	"addAddress.addressInput": "Адрес",
 	"addAddress.addButton": "Добавить",
@@ -26,17 +26,17 @@
 
 	// Address info screen
 	"addressInfo.title": "Информация об адресе",
-	"addressInfo.subtitle": "Получить всю релевантную информацию относительно адреса",
+	"addressInfo.subtitle": "Получить всю информацию об этом адресе",
 
 	// Create wallet screen
 	"createWallet.title": "Создать кошелек",
 	"createWallet.seedSubtitle": "Ваша фраза",
 	"createWallet.copyButton": "Копировать",
-	"createWallet.tooltipText": "Запишите эти слова или скопируйте в безопасное место! Не сообщайте фразу восстановления никому.",
+	"createWallet.tooltipText": "Запишите эти слова или скопируйте в безопасное место! Никому не сообщайте фразу восстановления.",
 	"createWallet.nextButton": "Далее",
-	"createWallet.copyAlert": "Seed фраза успешно скопирована!",
+	"createWallet.copyAlert": "Фраза восстановления скопирована!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "Вы скопировали и сохранили seed фразу? Если нет, то в будущем вы можете потерять свои средства. Вы хотите создать кошелек?",
+	"createWallet.walletCreateAlert": "Вы скопировали и сохранили фразу восстановления? Если нет, то в будущем вы можете потерять свои средства. Вы хотите создать кошелек?",
 	"createWallet.doNotCreateWalletButton": "Нет",
 	"createWallet.createWalletButton": "Да",
 
@@ -56,7 +56,7 @@
 	"importWallet.seedSubtitle": "Введите фразу восстановления",
 	"importWallet.seedInput": "Начните вводить Вашу фразу",
 	"importWallet.tooltipText": "12 слов, разделенных одним пробелом.",
-	"importWallet.nextButton": "Следующий",
+	"importWallet.nextButton": "Далее",
 	"importWallet.invalidSeedAlert": "Некорректная фраза восстановления. Попробуйте еще раз!",
 	"importWallet.walletTitle": "Название",
 	"importWallet.walletTitleExampleInput": "Введите название кошелька",
@@ -93,14 +93,14 @@
 	"receive.copyButton": "Копировать",
 	"receive.newButton": "Новая",
 	"receive.importButton": "Импорт",
-	"receive.copyAlert": "Адрес успешно скопирована!",
+	"receive.copyAlert": "Адрес успешно скопирован!",
 	"receive.confirmAlertButton": "OK",
 
 	// Import key screen
 	"importKey.title": "Импортировать WIF ключ",
 	"importKey.subtitle": "Добавьте адрес и частный ключ к адресам кошелька",
 	"importKey.keyInput": "WIF ключ",
-	"importKey.keyTooltipText": "Должен быть валидный ключ",
+	"importKey.keyTooltipText": "Ключ должен быть валидным",
 	"importKey.addButton": "Добавить",
 	"importKey.cancelButton": "Отменить",
 	"importKey.successAlert": "Успешно!",
@@ -127,13 +127,13 @@
 	// Wallet list screen
 	"walletList.title": "Список кошельков",
 	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
-	"walletList.empty": "Список кошельков пустой.",
+	"walletList.empty": "Список кошельков пуст.",
 	"walletList.addButton": "Добавить",
 	"walletList.cancelButton": "Отменить",
 	"walletList.notMigrated": "Кошелек еще не перемещен",
 
 	// Address list screen
-	"addressList.title": "Список адрес",
+	"addressList.title": "Список адресов",
 	"addressList.cancelButton": "Отменить",
 
 	// Transaction details screen
@@ -156,7 +156,7 @@
 
 	// Confirmation screen
 	"confirmation.title": "Подтверждение оплаты",
-	"confirmation.subtitle": "Подтвердите снятие монеты из кошелька",
+	"confirmation.subtitle": "Подтвердите снятие средств с кошелька",
 	"confirmation.balanceTooltipText": "Баланс",
 	"confirmation.amountTooltipText": "Количество",
 	"confirmation.addressTooltipText": "Адрес",
@@ -176,19 +176,19 @@
 	"settings.clearTxCache": "Очистить кэш транзакций",
 	"settings.clearTxCacheTooltipText": "Удалить историю транзакций и обновить их",
 	"settings.clearAddressBook": "Очистить адресную книгу",
-	"settings.clearAddressBookTooltipText": "Удалить все добавленные адреса в адресной книге",
+	"settings.clearAddressBookTooltipText": "Удалить все адреса из адресной книги",
 	"settings.copyRecoveryPhrase": "Скопировать фразу восстановления",
-	"settings.copyRecoveryPhraseTooltipText": "Скопируйте 12 seed слов, которые вы видели при создании кошелька",
+	"settings.copyRecoveryPhraseTooltipText": "Скопируйте 12 слов, которые вы видели при создании кошелька",
 	"settings.changePassword": "Изменить пароль",
 	"settings.changeLanguage": "Изменить язык",
 	"settings.importWIF": "Изменить WIF ключ",
 	"settings.walletList": "К списку кошельков",
 	"settings.removeWallet": "Удалить кошелек",
-	"settings.removeWalletTooltipText": "Полностью удалить кошелек со списка",
+	"settings.removeWalletTooltipText": "Полностью удалить кошелек из списка",
 	"settings.clearTxAlert": "Кэш транзакций успешно очищен!",
-	"settings.clearAddressBookAlert": "Адресная книга успешно очищенная!",
+	"settings.clearAddressBookAlert": "Адресная книга успешно удалена!",
 	"settings.copySeedAlert": "Фраза восстановления успешно скопирована!",
-	"settings.removeWalletAlert": "Скопируйте и сохраните seed фразу. В случае невыполнения, вы потеряете кошелек навсегда. Вы хотите удалить кошелек?",
+	"settings.removeWalletAlert": "Скопируйте и сохраните фразу восстановления. В противном случае вы потеряете кошелек и свои средства навсегда. Вы хотите удалить кошелек?",
 	"settings.doNotRemoveWalletButton": "Нет",
 	"settings.removeWalletButton": "Да",
 
