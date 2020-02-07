@@ -74,7 +74,7 @@
 	"password.repeatNewPINTitle": "다시한번 비밀번호를 입력하세요",
 	"password.setPassword": "비밀번호 설정하기",
 	"password.confirmPassword": "비밀번호 확인",
-	"password.enterPassword": "비밀번호 입력하기",
+	"password.enterPassword": "잠금 해제",
 	"password.cancelButton": "취소",
 	"password.incorrectPINAlert": "올바른 비밀번호가 아닙니다. 다시 시도해주세요!",
 	"password.confirmAlertButton": "확인",
