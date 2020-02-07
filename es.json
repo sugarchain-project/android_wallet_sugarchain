@@ -74,7 +74,7 @@
 	"password.repeatNewPINTitle": "Repita la nueva contraseña",
 	"password.setPassword": "Establecer contraseña",
 	"password.confirmPassword": "Confirmar la contraseña",
-	"password.enterPassword": "Introduzca la contraseña",
+	"password.enterPassword": "Desbloquear la cartera",
 	"password.cancelButton": "Cancelar",
 	"password.incorrectPINAlert": "Su contraseña es incorrecta. Inténtelo de nuevo!",
 	"password.confirmAlertButton": "OK",
