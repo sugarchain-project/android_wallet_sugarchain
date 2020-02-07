@@ -74,7 +74,7 @@
 	"password.repeatNewPINTitle": "Repeat new password",
 	"password.setPassword": "Set password",
 	"password.confirmPassword": "Confirm password",
-	"password.enterPassword": "Enter password",
+	"password.enterPassword": "Unlock wallet",
 	"password.cancelButton": "Cancel",
 	"password.incorrectPINAlert": "Your password is incorrect. Try again!",
 	"password.confirmAlertButton": "OK",
