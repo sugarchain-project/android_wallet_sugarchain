@@ -30,20 +30,20 @@
 
 	// Create wallet screen
 	"createWallet.title": "创建钱包",
-	"createWallet.seedSubtitle": "你的种子短语",
+	"createWallet.seedSubtitle": "钱包助记词",
 	"createWallet.copyButton": "复制",
-	"createWallet.tooltipText": "请按照顺序在纸上写下这些单词或复制保存！不要与任何人分享您的恢复短语。",
+	"createWallet.tooltipText": "请按照顺序在纸上写下这些单词或复制保存！不要与任何人分享您的助记词。",
 	"createWallet.nextButton": "下一步",
-	"createWallet.copyAlert": "种子短语已成功复制!",
+	"createWallet.copyAlert": "助记词已成功复制!",
 	"createWallet.confirmAlertButton": "OK",
-	"createWallet.walletCreateAlert": "你是否复制并保存了种子短语？如果没有，你将来可能会丢失钱包。你想创建钱包吗?",
+	"createWallet.walletCreateAlert": "请复制并妥善保存助记词，否则将来可能会丢失钱包，现在创建钱包吗?",
 	"createWallet.doNotCreateWalletButton": "否",
 	"createWallet.createWalletButton": "是",
 
 	// First wallet screen
 	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
 	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
-	"firstWallet.tooltipText": "要开始使用本应用，请点击下面的按钮",
+	"firstWallet.tooltipText": "请点击下面的按钮",
 	"firstWallet.createButton": "创建新的钱包",
 	"firstWallet.importButton": "导入钱包",
 
@@ -53,17 +53,17 @@
 
 	// Import wallet screen
 	"importWallet.title": "导入钱包",
-	"importWallet.seedSubtitle": "输入你的种子短语",
-	"importWallet.seedInput": "开始输入恢复短语",
+	"importWallet.seedSubtitle": "输入你的钱包助记词",
+	"importWallet.seedInput": "开始输入助记词",
 	"importWallet.tooltipText": "使用单个空格分开的12单词。",
 	"importWallet.nextButton": "下一步",
-	"importWallet.invalidSeedAlert": "无效的种子短语，请重试!",
+	"importWallet.invalidSeedAlert": "无效的钱包助记词，请重试!",
 	"importWallet.walletTitle": "标题",
 	"importWallet.walletTitleExampleInput": "输入钱包标题",
 	"importWallet.invalidTitle": "无效的标题. 实在太短了. 请再多输入一些字符!",
 	"importWallet.notUniqueTitle": "钱包标题已在列表中。尝试使用其它标题以避免重复。",
 	"importWallet.confirmAlertButton": "好的",
-	"importWallet.walletImportAlert": "你是否复制并保存了种子短语？如果没有，你将来可能会丢失钱包。你想导入钱包吗?",
+	"importWallet.walletImportAlert": "请复制并妥善保存助记词，否则将来可能会丢失钱包。现在导入钱包吗?",
 	"importWallet.doNotImportWalletButton": "否",
 	"importWallet.importWalletButton": "是",
 
@@ -78,12 +78,12 @@
 	"password.cancelButton": "取消",
 	"password.incorrectPINAlert": "密码不正确，请确认后再输入!",
 	"password.confirmAlertButton": "确定",
-	"password.biomentricTooltipText": "打开你的钱包",
+	"password.biomentricTooltipText": "打开您的钱包",
 	"password.android.biomentricTitle": "需要身份验证",
 	"password.android.biomentricTooltipText": "触碰指纹传感器",
 	"password.android.biomentricError": "失败",
 	"password.doNotMatchAlert": "两次密码输入不匹配，请重新输入!",
-	"password.useBioAlert": "你想启用指纹验证吗?",
+	"password.useBioAlert": "您想启用指纹验证吗?",
 	"password.doNotUseBioButton": "否",
 	"password.useBioButton": "是",
 
@@ -100,7 +100,7 @@
 	"importKey.title": "导入一个WIF密钥",
 	"importKey.subtitle": "添加地址与私钥到钱包中",
 	"importKey.keyInput": "WIF密钥",
-	"importKey.keyTooltipText": "必须为有效的密角",
+	"importKey.keyTooltipText": "必须为有效的密钥",
 	"importKey.addButton": "添加",
 	"importKey.cancelButton": "取消",
 	"importKey.successAlert": "成功!",
@@ -167,7 +167,7 @@
 	"wallet.title": "钱包",
 	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
 	"wallet.empty": "钱包历史记录为空，尝试先交易一次吧",
-	"wallet.emptyReceiveTab": "接收选项卡",
+	"wallet.emptyReceiveTab": "接收菜单",
 	"wallet.networkStatusTitle": "网络状态",
 
 	// Settings screen
@@ -177,8 +177,8 @@
 	"settings.clearTxCacheTooltipText": "删除本地交易列表并重新加载",
 	"settings.clearAddressBook": "清除地址簿",
 	"settings.clearAddressBookTooltipText": "从地址簿中删除所有添加的地址",
-	"settings.copyRecoveryPhrase": "复制种子短语",
-	"settings.copyRecoveryPhraseTooltipText": "创建钱包时请复制12个你看到的种子单词",
+	"settings.copyRecoveryPhrase": "复制助记词",
+	"settings.copyRecoveryPhraseTooltipText": "创建钱包时请复制12个你看到的助记词",
 	"settings.changePassword": "更改密码",
 	"settings.changeLanguage": "切换语言",
 	"settings.importWIF": "导入WIF密钥",
@@ -187,8 +187,8 @@
 	"settings.removeWalletTooltipText": "从程序中移除所有钱包",
 	"settings.clearTxAlert": "移除地址簿中所有地址!",
 	"settings.clearAddressBookAlert": "地址簿已全部清空!",
-	"settings.copySeedAlert": "种子短语已成功复制!",
-	"settings.removeWalletAlert": "复制并保存种子短语。否则你将永远失去钱包。您确认要删除钱包吗?",
+	"settings.copySeedAlert": "助记词已成功复制!",
+	"settings.removeWalletAlert": "复制并保存助记词，否则你将永远失去钱包。您确认要删除钱包吗?",
 	"settings.doNotRemoveWalletButton": "否",
 	"settings.removeWalletButton": "是",
 
