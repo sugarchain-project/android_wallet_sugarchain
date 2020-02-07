@@ -185,7 +185,7 @@
 	"settings.walletList": "ウォレット一覧の表示",
 	"settings.removeWallet": "ウォレットの削除",
 	"settings.removeWalletTooltipText": "アプリからウォレットを完全に削除します。",
-	"settings.clearTxAlert": "アドレス帳からすべての登録済みアドレスを消去します。",
+	"settings.clearTxAlert": "すべてのトランザクションの記録が削除されました。",
 	"settings.clearAddressBookAlert": "アドレス帳は消去されました。",
 	"settings.copySeedAlert": "リカバリーフレーズはコピーされました。",
 	"settings.removeWalletAlert": "リカバリーフレーズをコピーして保管してください。リカバリーフレーズが無いとウォレットは永久に失われます。本当にウォレットを削除しますか？",
