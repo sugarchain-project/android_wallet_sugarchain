@@ -1,0 +1,198 @@
+{
+	// Address book screen
+	"addressBook.title": "アドレス帳",
+	"addressBook.sendButton": "送信",
+	"addressBook.removeButton": "削除",
+	"addressBook.nameInput": "名前",
+	"addressBook.addressInput": "アドレス",
+	"addressBook.addAddressButton": "アドレスを追加",
+	"addressBook.empty": "アドレス帳は空です。",
+
+	// Adding an address screen
+	"addAddress.title": "アドレスの追加",
+	"addAddress.subtitle": "アドレス帳にアドレスを追加します。",
+	"addAddress.existNameAlert": "この名前は既にアドレス帳に登録されています。再入力してください。",
+	"addAddress.existAddressAlert": "このアドレスは既にアドレス帳に登録されています。再入力してください。",
+	"addAddress.successAlert": "成功",
+	"addAddress.incorrectNameAlert": "無効な名前です。",
+	"addAddress.incorrectAddressAlert": "無効なアドレスです。",
+	"addAddress.confirmAlertButton": "OK",
+	"addAddress.nameTooltipText": "3文字以上で入力",
+	"addAddress.addressTooltipText": "Sugarchainのアドレスを入力",
+	"addAddress.nameInput": "名前",
+	"addAddress.addressInput": "アドレス",
+	"addAddress.addButton": "追加",
+	"addAddress.cancelButton": "キャンセル",
+
+	// Address info screen
+	"addressInfo.title": "アドレス情報",
+	"addressInfo.subtitle": "当該アドレス情報に関連する詳細を表示",
+
+	// Create wallet screen
+	"createWallet.title": "ウォレットの作成",
+	"createWallet.seedSubtitle": "リカバリーフレーズ",
+	"createWallet.copyButton": "コピー",
+	"createWallet.tooltipText": "これらの単語を正しい順序で書き留めるか、コピーして安全な場所に保管してください。リカバリーフレーズは、誰とも共有しないでください。",
+	"createWallet.nextButton": "次へ",
+	"createWallet.copyAlert": "リカバリーフレーズは正しくコピーされました。",
+	"createWallet.confirmAlertButton": "OK",
+	"createWallet.walletCreateAlert": "リカバリーフレーズをコピーして保存しましたか？していない場合、将来ウォレットを失うことがありえます。ウォレットを作成しますか？",
+	"createWallet.doNotCreateWalletButton": "いいえ",
+	"createWallet.createWalletButton": "はい",
+
+	// First wallet screen
+	"firstWallet.firstLineTitle": "SUGARCHAIN WALLET", // DO_NOT_TRANSLATE
+	"firstWallet.moto":"one-CPU-one-vote, the world's fastest PoW blockchain", // DO_NOT_TRANSLATE
+	"firstWallet.tooltipText": "このアプリを使い始めるには、下のボタンのいずれかをタップしてください。",
+	"firstWallet.createButton": "新しいウォレットを作成",
+	"firstWallet.importButton": "ウォレットのインポート",
+
+	// Generate wallet screen
+	"generateWallet.processTitle": "ウォレットを作成中",
+	"generateWallet.tooltipText": "作成に時間がかかることがあります。しばらくお待ちください。",
+
+	// Import wallet screen
+	"importWallet.title": "ウォレットのインポート",
+	"importWallet.seedSubtitle": "リカバリーフレーズの入力",
+	"importWallet.seedInput": "ここにリカバリーフレーズを入力",
+	"importWallet.tooltipText": "12個の単語をスペース（空白）で区切って入力してください。",
+	"importWallet.nextButton": "次へ",
+	"importWallet.invalidSeedAlert": "無効なリカバリーフレーズです。再入力してください。",
+	"importWallet.walletTitle": "タイトル",
+	"importWallet.walletTitleExampleInput": "ここにタイトルを入力",
+	"importWallet.invalidTitle": "無効なタイトルです。短すぎます。再入力してください。",
+	"importWallet.notUniqueTitle": "ウォレットのタイトルは既にリストに存在します。間違いを回避するため、別のものを入力してください。",
+	"importWallet.confirmAlertButton": "OK",
+	"importWallet.walletImportAlert": "リカバリーフレーズをコピーして保存しましたか？していない場合、将来ウォレットを失うことがありえます。ウォレットをインポートしますか？",
+	"importWallet.doNotImportWalletButton": "いいえ",
+	"importWallet.importWalletButton": "はい",
+
+	// Password screen
+	"password.title": "パスワード",
+	"password.enterPINTitle": "パスワードを入力",
+	"password.enterNewPINTitle": "新しいパスワードを入力",
+	"password.repeatNewPINTitle": "新しいパスワードを再入力",
+	"password.setPassword": "パスワードを設定",
+	"password.confirmPassword": "パスワードを確認",
+	"password.enterPassword": "パスワードを入力",
+	"password.cancelButton": "キャンセル",
+	"password.incorrectPINAlert": "入力されたパスワードに誤りがあります。再入力してください。",
+	"password.confirmAlertButton": "OK",
+	"password.biomentricTooltipText": "ウォレットを開くために生体認証が必要です。",
+	"password.android.biomentricTitle": "認証要求",
+	"password.android.biomentricTooltipText": "センサーにタッチ",
+	"password.android.biomentricError": "失敗",
+	"password.doNotMatchAlert": "パスワードが一致しません。再入力してください。",
+	"password.useBioAlert": "生体認証を使いますか？",
+	"password.doNotUseBioButton": "いいえ",
+	"password.useBioButton": "はい",
+
+	// Receive screen
+	"receive.title": "受信",
+	"receive.infoSubtitle": "ウォレット情報",
+	"receive.copyButton": "コピー",
+	"receive.newButton": "新規作成",
+	"receive.importButton": "インポート",
+	"receive.copyAlert": "アドレスがコピーされました。",
+	"receive.confirmAlertButton": "OK",
+
+	// Import key screen
+	"importKey.title": "WIFキーのインポート",
+	"importKey.subtitle": "ウォレットのアドレスにアドレスと秘密鍵を追加します。",
+	"importKey.keyInput": "WIFキー",
+	"importKey.keyTooltipText": "正しいキーを入力",
+	"importKey.addButton": "追加",
+	"importKey.cancelButton": "キャンセル",
+	"importKey.successAlert": "成功",
+	"importKey.confirmAlertButton": "OK",
+	"importKey.importErrorAlert": "無効なWIFキーです。再入力してください。",
+
+	// Send screen
+	"send.title": "送信",
+	"send.transactionSubtitle": "トランザクションの詳細",
+	"send.fromText": "送信元",
+	"send.toText": "送信先",
+	"send.feeText": "手数料",
+	"send.amountText": "金額",
+	"send.addressExampleInput": "sugar1qcu07vm47ceh7lec3umx7nv7e8tm8r8zw4l2uyx",
+	"send.confirmButton": "確認",
+	"send.successAlert": "成功",
+	"send.errorAlert": "エラー: トランザクション送信",
+	"send.confirmAlertButton": "OK",
+	"send.dismissScanModalButton": "QRスキャナーを閉じる",
+	"send.qrcodeButton": "QRコード",
+	"send.addressBookButton": "アドレス帳",
+	"send.clearButton": "Clear",
+
+	// Wallet list screen
+	"walletList.title": "ウォレット一覧",
+	"walletList.empty": "ウォレット一覧は空です。",
+	"walletList.addButton": "追加",
+	"walletList.cancelButton": "キャンセル",
+	"walletList.notMigrated": "ウォレットはまだ移行されていません。",
+
+	// Address list screen
+	"addressList.title": "アドレス一覧",
+	"addressList.cancelButton": "キャンセル",
+
+	// Transaction details screen
+	"transactionDetails.title": "トランザクションの詳細",
+	"transactionDetails.sendText": "送信",
+	"transactionDetails.receivedText": "受信",
+	"transactionDetails.dateTooltipText": "日付",
+	"transactionDetails.confirmationsTooltipText": "承認回数",
+	"transactionDetails.txidTooltipText": "TXID",
+	"transactionDetails.fromTooltipText": "送信元",
+	"transactionDetails.toTooltipText": "送信先",
+	"transactionDetails.explorerButton": "ブロックチェーン・エクスプローラー",
+	"transactionDetails.closeButton": "閉じる",
+	"transactionDetails.amountText": "金額",
+	"transactionDetails.feeText": "手数料",
+	"transactionDetails.alertTitle": "送信",
+	"transactionDetails.existNameAlert": "アドレス帳が空です。",
+	"transactionDetails.confirmAlertButton": "OK",
+	"transactionDetails.myWalletText": "自分のウォレット",
+
+	// Confirmation screen
+	"confirmation.title": "送金の確認",
+	"confirmation.subtitle": "ウォレットからの送金を確認してください。",
+	"confirmation.balanceTooltipText": "残額",
+	"confirmation.amountTooltipText": "金額",
+	"confirmation.addressTooltipText": "アドレス",
+	"confirmation.feeTooltipText": "手数料",
+	"confirmation.confirmButton": "送金する",
+	"confirmation.cancelButton": "キャンセル",
+
+	// Wallet screen
+	"wallet.title": "ウォレット",
+	"wallet.coinTitle": "SUGAR", // DO_NOT_TRANSLATE
+	"wallet.empty": "ウォレットの履歴は空です。コインを入れましょう。",
+	"wallet.emptyReceiveTab": "受信タブを開いてください。",
+	"wallet.networkStatusTitle": "ネットワーク状況",
+
+	// Settings screen
+	"settings.title": "設定",
+	"settings.confirmAlertButton": "OK",
+	"settings.clearTxCache": "トランザクションのキャッシュの消去",
+	"settings.clearTxCacheTooltipText": "ローカルのトランザクションのリストを削除し、再読み込みします。",
+	"settings.clearAddressBook": "アドレス帳の消去",
+	"settings.clearAddressBookTooltipText": "アドレス帳からすべてのアドレスを削除します。",
+	"settings.copyRecoveryPhrase": "リカバリーフレーズのコピー",
+	"settings.copyRecoveryPhraseTooltipText": "ウォレット作成時に表示された12個の単語をコピーします。",
+	"settings.changePassword": "パスワード変更",
+	"settings.changeLanguage": "言語選択",
+	"settings.importWIF": "WIFキーのインポート",
+	"settings.walletList": "ウォレット一覧の表示",
+	"settings.removeWallet": "ウォレットの削除",
+	"settings.removeWalletTooltipText": "アプリからウォレットを完全に削除します。",
+	"settings.clearTxAlert": "アドレス帳からすべての登録済みアドレスを消去します。",
+	"settings.clearAddressBookAlert": "アドレス帳は消去されました。",
+	"settings.copySeedAlert": "リカバリーフレーズはコピーされました。",
+	"settings.removeWalletAlert": "リカバリーフレーズをコピーして保管してください。リカバリーフレーズが無いとウォレットは永久に失われます。本当にウォレットを削除しますか？",
+	"settings.doNotRemoveWalletButton": "いいえ",
+	"settings.removeWalletButton": "はい",
+
+	// Language list screen
+	"languageList.title": "言語",
+	"languageList.doneButton": "完了",
+}
