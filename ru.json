@@ -144,7 +144,7 @@
 	"transactionDetails.confirmationsTooltipText": "Подтверждения",
 	"transactionDetails.txidTooltipText": "Txid",
 	"transactionDetails.fromTooltipText": "От",
-	"transactionDetails.toTooltipText": "Получатель",
+	"transactionDetails.toTooltipText": "До",
 	"transactionDetails.explorerButton": "Посмотреть в обозревателе",
 	"transactionDetails.closeButton": "Закрыть",
 	"transactionDetails.amountText": "Количество",
