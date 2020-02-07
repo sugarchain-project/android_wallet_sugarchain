@@ -74,7 +74,7 @@
 	"password.repeatNewPINTitle": "新しいパスワードを再入力",
 	"password.setPassword": "パスワードを設定",
 	"password.confirmPassword": "パスワードを確認",
-	"password.enterPassword": "パスワードを入力",
+	"password.enterPassword": "ウォレットをアンロック",
 	"password.cancelButton": "キャンセル",
 	"password.incorrectPINAlert": "入力されたパスワードに誤りがあります。再入力してください。",
 	"password.confirmAlertButton": "OK",
@@ -109,7 +109,7 @@
 
 	// Send screen
 	"send.title": "送信",
-	"send.transactionSubtitle": "トランザクションの詳細",
+	"send.transactionSubtitle": "トランザクション詳細",
 	"send.fromText": "送信元",
 	"send.toText": "送信先",
 	"send.feeText": "手数料",
@@ -119,7 +119,7 @@
 	"send.successAlert": "成功",
 	"send.errorAlert": "エラー: トランザクション送信",
 	"send.confirmAlertButton": "OK",
-	"send.dismissScanModalButton": "QRスキャナーを閉じる",
+	"send.dismissScanModalButton": "QRスキャナーを終了",
 	"send.qrcodeButton": "QRコード",
 	"send.addressBookButton": "アドレス帳",
 	"send.clearButton": "Clear",
@@ -136,7 +136,7 @@
 	"addressList.cancelButton": "キャンセル",
 
 	// Transaction details screen
-	"transactionDetails.title": "トランザクションの詳細",
+	"transactionDetails.title": "トランザクション詳細",
 	"transactionDetails.sendText": "送信",
 	"transactionDetails.receivedText": "受信",
 	"transactionDetails.dateTooltipText": "日付",
@@ -149,18 +149,18 @@
 	"transactionDetails.amountText": "金額",
 	"transactionDetails.feeText": "手数料",
 	"transactionDetails.alertTitle": "送信",
-	"transactionDetails.existNameAlert": "アドレス帳が空です。",
+	"transactionDetails.existNameAlert": "アドレス帳は空です。",
 	"transactionDetails.confirmAlertButton": "OK",
 	"transactionDetails.myWalletText": "自分のウォレット",
 
 	// Confirmation screen
-	"confirmation.title": "送金の確認",
-	"confirmation.subtitle": "ウォレットからの送金を確認してください。",
+	"confirmation.title": "送金確認",
+	"confirmation.subtitle": "送金内容を確認してください。",
 	"confirmation.balanceTooltipText": "残額",
 	"confirmation.amountTooltipText": "金額",
 	"confirmation.addressTooltipText": "アドレス",
 	"confirmation.feeTooltipText": "手数料",
-	"confirmation.confirmButton": "送金する",
+	"confirmation.confirmButton": "実行",
 	"confirmation.cancelButton": "キャンセル",
 
 	// Wallet screen
