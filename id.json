@@ -75,7 +75,7 @@
 	"password.repeatNewPINTitle": "Ulangi kata sandi baru",
 	"password.setPassword": "Setel Kata Sandi",
 	"password.confirmPassword": "Konfirmasi Kata Sandi",
-	"password.enterPassword": "Masukan kata Sandi",
+	"password.enterPassword": "Buka Dompet",
 	"password.cancelButton": "Batalkan",
 	"password.incorrectPINAlert": "Kata sandi Anda Salah. Ulangi Lagi!",
 	"password.confirmAlertButton": "OK",
@@ -89,7 +89,7 @@
 	"password.useBioButton": "Ya",
 
 	// Receive screen
-	"receive.title": "Informasi Dompet",
+	"receive.title": "Menerima",
 	"receive.copyButton": "Salin",
 	"receive.newButton": "Baru",
 	"receive.importButton": "Impor",
