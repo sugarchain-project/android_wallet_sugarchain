@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "시작하려면 아래 버튼중 하나를 탭하세요",
 	"firstWallet.createButton": "지갑 생성하기",
 	"firstWallet.importButton": "지갑 복구하기",
+	"firstWallet.cancelButton": "취소",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "지갑 생성",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "잠금 해제",
 	"password.cancelButton": "취소",
 	"password.incorrectPINAlert": "올바른 비밀번호가 아닙니다. 다시 시도해주세요!",
+	"password.incorrectPasswordLenght": "비밀번호가 너무 짧습니다. 4글자 이상 입력하세요!",
 	"password.confirmAlertButton": "확인",
 	"password.biomentricTooltipText": "지갑을 열기 위해서",
 	"password.android.biomentricTitle": "인증이 필요합니다",
