@@ -46,7 +46,8 @@
 	"firstWallet.tooltipText": "Para empezar a utilizar la aplicación, toque uno de los siguientes botones",
 	"firstWallet.createButton": "Crear una nueva cartera",
 	"firstWallet.importButton": "Importación de cartera",
-
+	"firstWallet.cancelButton": "Cancelar",
+	
 	// Generate wallet screen
 	"generateWallet.processTitle": "Generando cartera",
 	"generateWallet.tooltipText": "Puede tomar algún tiempo, por favor, tenga paciencia.",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "Desbloquear la cartera",
 	"password.cancelButton": "Cancelar",
 	"password.incorrectPINAlert": "Su contraseña es incorrecta. Inténtelo de nuevo!",
+	"password.incorrectPasswordLenght": "Contraseña demasiado corta. ¡Al menos 4 dígitos!",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "para abrir su cartera",
 	"password.android.biomentricTitle": "Autenticación requerida",
