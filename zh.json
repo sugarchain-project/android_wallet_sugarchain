@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "请点击下面的按钮",
 	"firstWallet.createButton": "创建新的钱包",
 	"firstWallet.importButton": "导入钱包",
+	"firstWallet.cancelButton": "取消",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "钱包创建中",
@@ -55,7 +56,7 @@
 	"importWallet.title": "导入钱包",
 	"importWallet.seedSubtitle": "输入你的钱包助记词",
 	"importWallet.seedInput": "开始输入助记词",
-	"importWallet.tooltipText": "使用单个空格分开的12单词。",
+	"importWallet.tooltipText": "助记词为单个空格分开的12个英文单词。",
 	"importWallet.nextButton": "下一步",
 	"importWallet.invalidSeedAlert": "无效的钱包助记词，请重试!",
 	"importWallet.walletTitle": "标题",
@@ -74,9 +75,10 @@
 	"password.repeatNewPINTitle": "重复新密码",
 	"password.setPassword": "设置密码",
 	"password.confirmPassword": "确认密码",
-	"password.enterPassword": "输入密码",
+	"password.enterPassword": "解锁钱包",
 	"password.cancelButton": "取消",
 	"password.incorrectPINAlert": "密码不正确，请确认后再输入!",
+	"password.incorrectPasswordLenght": "密码太简单，请不要少于4个字符!",
 	"password.confirmAlertButton": "确定",
 	"password.biomentricTooltipText": "打开您的钱包",
 	"password.android.biomentricTitle": "需要身份验证",
