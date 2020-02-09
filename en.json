@@ -46,7 +46,7 @@
 	"firstWallet.tooltipText": "To start using the app, tap on one of the buttons below",
 	"firstWallet.createButton": "Create new wallet",
 	"firstWallet.importButton": "Import wallet",
-	// "firstWallet.cancelButton": "Cancel",
+	"firstWallet.cancelButton": "Cancel",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Generating wallet",
