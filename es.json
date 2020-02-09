@@ -78,6 +78,7 @@
 	"password.enterPassword": "Desbloquear la cartera",
 	"password.cancelButton": "Cancelar",
 	"password.incorrectPINAlert": "Su contraseña es incorrecta. Inténtelo de nuevo!",
+	"password.incorrectPasswordLenght": "Contraseña demasiado corta. ¡Al menos 4 dígitos!",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "para abrir su cartera",
 	"password.android.biomentricTitle": "Autenticación requerida",
