@@ -46,7 +46,7 @@
 	"firstWallet.tooltipText": "このアプリを使い始めるには、下のボタンのいずれかをタップしてください。",
 	"firstWallet.createButton": "新しいウォレットを作成",
 	"firstWallet.importButton": "ウォレットのインポート",
-  "firstWallet.cancelButton": "キャンセル",
+  	"firstWallet.cancelButton": "キャンセル",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "ウォレットを作成中",
