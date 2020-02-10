@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "لتبدأ باستخدام التطبيق اضغط على الازرار بالأسفل",
 	"firstWallet.createButton": "انشاء محفظة جديدة",
 	"firstWallet.importButton": "استيراد محفظة",
+	"firstWallet.cancelButton": "إلغاء",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "توليد محفظة",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "أدحل كلمة المرور",
 	"password.cancelButton": "الغاء",
 	"password.incorrectPINAlert": "كلمة المرور غير صالحة . من فضلك حاول لاحقا !",
+	"password.incorrectPasswordLenght": "كلمة مرور قصيرة جدًا. على الأقل 4 أرقام!",
 	"password.confirmAlertButton": "موافق",
 	"password.biomentricTooltipText": "للقيام بفتح المحفظة الخاصة بك",
 	"password.android.biomentricTitle": "عملية المصادة مطلوبة",
