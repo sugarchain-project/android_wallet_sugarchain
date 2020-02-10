@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "このアプリを使い始めるには、下のボタンのいずれかをタップしてください。",
 	"firstWallet.createButton": "新しいウォレットを作成",
 	"firstWallet.importButton": "ウォレットのインポート",
+  "firstWallet.cancelButton": "キャンセル",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "ウォレットを作成中",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "ウォレットをアンロック",
 	"password.cancelButton": "キャンセル",
 	"password.incorrectPINAlert": "入力されたパスワードに誤りがあります。再入力してください。",
+	"password.incorrectPasswordLenght": "パスワードが短すぎます。4桁以上で設定してください。",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "ウォレットを開くために生体認証が必要です。",
 	"password.android.biomentricTitle": "認証要求",
