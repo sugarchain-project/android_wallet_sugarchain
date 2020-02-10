@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "Zur Nutzung der App bitte auf einen der unteren Buttons tippen",
 	"firstWallet.createButton": "Neue Wallet erstellen",
 	"firstWallet.importButton": "Wallet importieren",
+	"firstWallet.cancelButton": "Stornieren",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Wallet wird generiert",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "Passwort eingeben",
 	"password.cancelButton": "Abbruch",
 	"password.incorrectPINAlert": "Falsches Passwort. Bitte erneut versuchen!",
+	"password.incorrectPasswordLenght": "Zu kurzes Passwort. Mindestens 4 Stellen!",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "Zum öffnen Deiner Wallet",
 	"password.android.biomentricTitle": "Authentifikation erforderlich",
