@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "Чтобы начать использовать приложение, нажмите на одну из кнопок ниже",
 	"firstWallet.createButton": "Создать новый кошелек",
 	"firstWallet.importButton": "Импортировать кошелек",
+	"firstWallet.cancelButton": "Отмена",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Создание кошелька",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "Открыть кошелек",
 	"password.cancelButton": "Отменить",
 	"password.incorrectPINAlert": "Ваш PIN-код некорректный. Попробуйте еще раз!",
+	"password.incorrectPasswordLenght": "Слишком короткий пароль. Как минимум 4 цифры!",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "для открытия кошелька",
 	"password.android.biomentricTitle": "Необходима аутентификация",
