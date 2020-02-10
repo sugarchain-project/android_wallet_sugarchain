@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "For at begynde at bruge appen skal du trykke på en af knapperne nedenfor",
 	"firstWallet.createButton": "Opret ny tegnebog",
 	"firstWallet.importButton": "Importer tegnebog",
+	"firstWallet.cancelButton": "Afbestille",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Genererer tegnebog",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "Indtast adgangskode",
 	"password.cancelButton": "Afbestill",
 	"password.incorrectPINAlert": "Din adgangskode er forkert. Prøv igen!",
+	"password.incorrectPasswordLenght": "For kort adgangskode. Mindst 4 cifre!",
 	"password.confirmAlertButton": "OK",
 	"password.biomentricTooltipText": "for at åbne din tegnebog",
 	"password.android.biomentricTitle": "Godkendelse krævet",
