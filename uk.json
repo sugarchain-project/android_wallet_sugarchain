@@ -46,6 +46,7 @@
 	"firstWallet.tooltipText": "Щоб розпочати користування додатком, натисніть на одну з нижче представлених кнопок",
 	"firstWallet.createButton": "Створити новий гаманець",
 	"firstWallet.importButton": "Імпортувати гаманець",
+	"firstWallet.cancelButton": "Скасувати",
 
 	// Generate wallet screen
 	"generateWallet.processTitle": "Створення гаманця",
@@ -77,6 +78,7 @@
 	"password.enterPassword": "Відкрити гаманець",
 	"password.cancelButton": "Відмінити",
 	"password.incorrectPINAlert": "Ваш пароль невірний. Спробуйте ще раз!",
+	"password.incorrectPasswordLenght": "Занадто короткий пароль. Принаймні 4 цифри!",
 	"password.confirmAlertButton": "ОК",
 	"password.biomentricTooltipText": "для відкриття гаманця",
 	"password.android.biomentricTitle": "Потрібна автентифікація",
