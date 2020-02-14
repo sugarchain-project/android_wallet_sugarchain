@@ -1,4 +1,6 @@
 # ANDROID WALLET FOR SUGARCHAIN
+- Version 1.0
+- Release Date: 2020-02-14 (valentine day)
 
 ### Keywords
 - Wallet
