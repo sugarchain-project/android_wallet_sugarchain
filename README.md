@@ -26,6 +26,6 @@ If there're any issues please join the official Telegram: https://t.me/sugarchai
 
 ### Screenshot
 - Main Page
-![main_page](https://github.com/sugarchain-project/translation_android_wallet/blob/master/screenshot/Screenshot-1.png?raw=true)
+<img src="./screenshot/Screenshot-1.png" width="256">
 - Transaction Page
-![transaction_page](https://github.com/sugarchain-project/translation_android_wallet/blob/master/screenshot/Screenshot-5.png?raw=true)
+<img src="./screenshot/Screenshot-5.png" width="256">
