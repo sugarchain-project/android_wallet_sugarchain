@@ -25,7 +25,4 @@ Simple key features make it easy for anyone to simply send and receive Sugarchai
 If there're any issues please join the official Telegram: https://t.me/sugarchain for further assistance.
 
 ### Screenshot
-- Main Page
-<img src="./screenshot/Screenshot-1.png" width="256">
-- Transaction Page
-<img src="./screenshot/Screenshot-5.png" width="256">
+<img src="./screenshot/Screenshot-1.png" width="400"> <img src="./screenshot/Screenshot-5.png" width="400">
