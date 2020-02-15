@@ -1,4 +1,5 @@
 # ANDROID WALLET FOR SUGARCHAIN
+![GitHub All Releases](https://img.shields.io/github/downloads/sugarchain-project/android_wallet_sugarchain/total)
 - Version 1.0
 - Release Date: 2020-02-14 (valentine day)
 
