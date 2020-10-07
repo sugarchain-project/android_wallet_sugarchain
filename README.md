@@ -1,7 +1,7 @@
 # ANDROID WALLET FOR SUGARCHAIN
 ![GitHub All Releases](https://img.shields.io/github/downloads/sugarchain-project/android_wallet_sugarchain/total)
-- Version 1.0
-- Release Date: 2020-02-14 (valentine day)
+- Version 1.0.3
+- Release Date: 2020-10-08
 
 ### Keywords
 - Wallet
@@ -22,6 +22,7 @@ Key wallet features include:
 - View your transaction history of each wallet
 - Generate new receiving addresses
 - Quick fee estimator to assist with fees
+- Scan QR code with Camera (1.0.3)
 
 Simple key features make it easy for anyone to simply send and receive Sugarchain between peers.
 
